@@ -1,0 +1,309 @@
+<div data-section-id="{{ section.id }}"  data-section-type="blog-post-type-1" class="blog-post-type-1">
+  <div class="container">
+    <div class="dt-sc-hr-invisible-large"></div>
+    <div class="blog-post">
+      <div class="grid">  
+        {% if section.settings.title != blank or section.settings.small_title  %}
+        <div class="section-header section-header--small">
+          <div class="border-title">
+            {% endif %}  
+            {% if section.settings.small_title != blank %}
+            <h6 style="color:{{ section.settings.text_clr }};">{{ section.settings.small_title }}</h6>
+            {% endif %} 
+            {% if section.settings.title != blank %}
+            <h2 class="section-header__title" style="color:{{ section.settings.title_clr }};">    
+              {{ section.settings.title }}
+            </h2>
+            {% endif %}               
+            {% if section.settings.title != blank or section.settings.small_title  %}          
+          </div>
+        </div>
+        {% endif %}  
+        <div class="dt-sc-hr-invisible-small"></div>
+
+        <div class="home-blog blog-section  owl-carousel owl-theme" id="artical_carousel">        
+          {% for article in blogs[section.settings.pick_featured_blog].articles   %}   
+          <div class="article-item grid__item">
+            <div class="article">
+              <div class="home-blog-image grid__item" style="position:relative;">
+                {% if article.image %}
+                <a href="{{ article.url }}">
+                  <img src="{{ article.image.src | img_url: 'grande' }}" alt="{{ article.title }}" /> 
+                </a>                
+                {% endif %}                
+              </div>              
+              <div class="blog-description grid__item">
+                <div class="blogs-sub-title">                  
+
+                  <div class="home-blog-content blog-detail">  
+                    <h4><a href="{{ article.url }}" style="color:{{ section.settings.title_blog_clr }};">{{ article.title }}</a></h4>                            
+
+                    {% if section.settings.show_featured_date %}   
+
+
+                    <p class="blog-date" style="color:{{ section.settings.blog_date_clr }};">
+                      <span data-datetime="{{ article.published_at | date: '%Y-%m-%d' }}"><span class="date">{{ article.published_at | date: '%B' }} {{ article.published_at | date: '%d' }} , {{ article.published_at | date: '%Y' }}</span></span>             
+                    </p>
+
+                    {% endif %} 
+                    {% if section.settings.blog_description %}
+                    <p class="blog-desc" style="color:{{ section.settings.blog_desc_clr }};">{{ article.content | strip_html | truncate:100 }}</p>
+                    {% endif %}                 
+                  </div>                  
+                  {% if article.comments_enabled? %}
+                  {% assign number_of_comments = article.comments_count %}
+                  {% if section.settings.blog_comment %}
+                  <p class="comments-count"><i class="far fa-comment"></i>{{  number_of_comments }}  <a style="color:{{ section.settings.blog_comment_text }};" href="{{ article.url }}#comments">  {{ 'blogs.comments.comments' | t }}</a></p>
+                  {% endif %}
+                  {% endif %}
+                  <p class="author" style="color:{{ section.settings.blog_author_text }}">
+                    {% if section.settings.blog_author_enable %}            
+                    <i class="far fa-user"></i>
+                    <span> {{ article.author }}</span>
+                    {% endif %}
+                  </p>
+                </div>  
+
+                <div class="blog-btn">
+                  {% if section.settings.btn != blank %}
+                  <a class=""  href="{{ article.url }}">{{ section.settings.btn }}</a>
+                  {% else %}
+                  <a class="dots" href="{{ article.url }}"></a>
+                  {% endif %}
+                </div>                
+              </div>
+            </div>  
+          </div>
+          {% else %}
+          {% for i in (1..3) %}
+
+          <div class="article-item grid__item">
+            <div class="article">
+              <div class="home-blog-image grid__item" style="position:relative;">
+
+                <a href="/blogs/news/5-low-maintenance-pet-bird-species-1">
+                  <img src="//via.placeholder.com/1230x840">
+                </a>  
+              </div>              
+              <div class="blog-description grid__item">
+                <div class="blogs-sub-title">                  
+
+                  <div class="home-blog-content blog-detail">  
+                    <h4><a href="/blogs/news/5-low-maintenance-pet-bird-species-1" style="color:#000000;">5 Low Maintenance Pet Bird Species</a></h4>                            
+                    <p class="blog-date" style="color:#a0b200;">
+                      <span data-datetime="2019-06-13"><span class="date">Jun 13 , 2019</span></span>             
+                    </p>
+                    <p class="blog-desc" style="color:#666666;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenea...</p>
+
+                  </div>                  
+                  <p class="comments-count"><i class="far fa-comment"></i>0  <a style="color:#666666;" href="/blogs/news/5-low-maintenance-pet-bird-species-1#comments">  Comments</a></p>
+                  <p class="author" style="color:#666666">
+
+                    <i class="far fa-user"></i>
+                    <span> Ram M</span>
+
+                  </p>
+                  <div class="blog-btn">
+                    <a class="" href="/blogs/news/5-low-maintenance-pet-bird-species-1">Read more</a>
+                  </div>
+                </div>  
+              </div>
+            </div>  
+          </div>
+
+          {% endfor %}
+          {% endfor %}
+        </div>
+        <div class="nav_article"> </div>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            var article_item = $(".blog-post-type-1 #artical_carousel");
+            article_item.owlCarousel({
+              items: 3,
+              loop:false,              
+              dots: false,
+              nav:true,
+              navContainer: ".blog-post-type-1 .nav_article",
+              navText: [' <a class="prev active"><i class="fas fa-angle-left"></i></a>','<a class="next"><i class="fas fa-angle-right"></i></a>'],
+              responsive:{
+                0:{
+                  items: 1
+                },
+                568:{
+                  items:2
+                },
+                700:{
+                  items:2
+                },
+
+                1000:{
+                  items: 3
+                }
+              }
+            });
+          });
+        </script>
+      </div>
+
+    </div>
+    <div class="dt-sc-hr-invisible-large"></div>
+  </div> 
+</div>
+
+<style>
+
+  {% if section.settings.heading_image_need %}  .blog-post-type-1 .border-title:after {  content:"";background-image:url({{ section.settings.heading_image | img_url: 'master' }});display:inline-block;background-repeat:no-repeat;width:238px;height:24px;} {% endif %}
+  .blog-post-type-1 .comments-count a:hover { color:{{ section.settings.title_hover_clr }} !important; }
+  .blog-post-type-1 .blog-btn a:hover { color:{{ section.settings.btn_txt_hover }}; }
+  .blog-post-type-1 .blog-btn a { color:{{ section.settings.btn_color }}; }
+  .blog-post-type-1 .home-blog-content.blog-detail:hover h4 a { color:{{ section.settings.title_hover_clr }} !important; }
+  .blog-post-type-1 .comments-count { color:{{ section.settings.blog_comment_text }}; }
+  .blog-post-type-1 .comments-count:before { background:{{ section.settings.blog_comment_text }}; }
+  .blog-post-type-1 .blog-overlay:before { content:"";background:{{ section.settings.blog_bg }};float:left;width:100%;height:100%;position:absolute;left:0;top:0;right:0;}
+
+</style>
+
+{% schema %}
+{
+"name": "Blog Post Type 1",
+"settings": [
+{
+"type": "color",
+"id": "blog_bg",
+"label": "Blog Bg Overlay",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Featured posts"
+},	
+{
+"type": "color",
+"id": "title_clr",
+"label": "Title Color",
+"default":"#000"
+},
+{
+"type": "checkbox",
+"id": "heading_image_need",
+"label": "Show Heading Image ?"
+
+},	
+{
+"type": "image_picker",
+"id": "heading_image",
+"label": "Image",
+"info": "Size: 133x56"
+
+},	
+{
+"type": "text",
+"id": "small_title",
+"label": "Small Heading"
+},	
+{
+"type": "color",
+"id": "text_clr",
+"label": "Text color",
+"default":"#000"
+},
+{
+"type": "blog",
+"id": "pick_featured_blog",
+"label": "Select blog"
+},
+{
+"type": "color",
+"id": "title_blog_clr",
+"label": "Title color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "title_hover_clr",
+"label": "Hover color",
+"default": "#000"
+},
+{
+"type": "checkbox",
+"id": "show_featured_date",
+"label": "Show date"
+},
+{
+"type": "color",
+"id": "date_color",
+"label": "Date Color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "blog_date_clr",
+"label": "Month Color",
+"default": "#000"
+},
+
+{
+"type": "checkbox",
+"id": "blog_author_enable",
+"label": "Show author"
+},
+{
+"type": "color",
+"id": "blog_author_text",
+"label": "Author Color",
+"default": "#000"
+},
+{
+"type": "checkbox",
+"id": "blog_comment",
+"label": "Show Comment"
+},
+{
+"type": "color",
+"id": "blog_comment_text",
+"label": "Comment Color",
+"default": "#000"
+},
+{
+"type": "checkbox",
+"id": "blog_description",
+"label": "Show description"
+},
+{
+"type": "color",
+"id": "blog_desc_clr",
+"label": "Description Color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "btn",
+"label": "Button",
+"default": "Read more"
+},
+{
+"type": "color",
+"id": "btn_color",
+"label": "Button Color",
+"default": "#fff"
+},
+
+{
+"type": "color",
+"id": "btn_txt_hover",
+"label": "Button Hover Color",
+"default": "#000"
+}
+
+],
+"presets": [
+{
+"name": "Blog Post Type 1",
+"category": "blog"
+}
+]
+}
+{% endschema %}

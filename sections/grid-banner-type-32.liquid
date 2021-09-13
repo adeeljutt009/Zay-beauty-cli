@@ -1,0 +1,315 @@
+<div data-section-id="{{ section.id }}" data-section-type="grid-banner-type-32" class="grid-banner-type-32" style="float:left;width:100%;{% if section.settings.show_image_1 %}background-image:url('{{ section.settings.image_1 | img_url: '1920X' }}');background-attachment:fixed;background-repeat:no-repeat;background-position:center center; {% else %}background:{{ section.settings.bg_color }}{% endif%};">  
+  <div class="container">
+   <div class="dt-sc-hr-invisible-large"></div>
+    {% if section.settings.heading != blank or section.settings.sub_heading != blank %}
+    <div class="border-title text-center">
+      <span style="color:{{ section.settings.sub_heading_clr }}">{{ section.settings.sub_heading }}</span>
+      <h3 class="" style="color:{{ section.settings.heading_clr }}">{{ section.settings.heading }}</h3>
+    </div>
+    {% endif %}
+    <div class="grid-uniform">        
+      {% if section.blocks.size > 0 %}      
+      {% for block in section.blocks %}
+      {% if block.settings.alignment == "left" %}  
+      <div class="section-one wow animated slideInUp">
+        <div class="grid__item wide--one-half post-large--one-half large--one-half medium--grid__item small-grid__item"> 
+          <div class="ovrly09">
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif%}
+            {% if block.settings.image != blank %}
+            
+            <<img src="{{ block.settings.image | img_url: '750x' }}" alt="{{ block.settings.title }}" />
+            <div class="overlay"></div>
+            {% else %}
+            <img src="//via.placeholder.com/767x500">
+            {% endif%}           
+            {% if block.settings.link != blank %}  </a>
+            {% endif%}
+          </div>
+        </div>
+        <div class="grid__item wide--one-half post-large--one-half large--one-half medium--grid__item small-grid__item">    
+          <div class="block-content"> 
+            {% if block.settings.icon != blank %}
+            <img src="{{ block.settings.icon | img_url: '100x' }}" alt="{{ block.settings.title }}" />
+            {% endif %}
+            <div class="block-title">
+            {% if block.settings.title != blank %}                        
+            <h6>{{ block.settings.title }}</h6>        
+            {% endif %}
+            {% if block.settings.sub_title != blank %}                         
+              <h4><a href="{{block.settings.link_1}}">{{ block.settings.sub_title }}</a></h4>        
+            {% endif %} 
+            </div>  
+            {% if block.settings.desc != blank %}                         
+            <p>{{ block.settings.desc }}</p>        
+            {% endif %} 
+             {% if block.settings.price != blank %}                         
+            <p class="price">{{ block.settings.price }}</p>
+            {% endif %} 
+            {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}" style="color:{{block.settings.button_color }};background:{{block.settings.button_bg }};" class="btn">{{ block.settings.button }}<div class="overlay"></div></a>{% endif%}
+          </div>  
+        </div>
+      </div>
+      {% endif%}
+      {% if block.settings.alignment == "right" %}     
+      <div class="section-one wow animated slideInUp">
+        <div class="grid__item wide--one-half post-large--one-half large--one-half medium--grid__item small-grid__item">    
+          <div class="block-content">
+            {% if block.settings.icon != blank %}
+            <img src="{{ block.settings.icon | img_url: '100x' }}" alt="{{ block.settings.title }}" />
+            {% endif %}
+            <div class="block-title">
+            {% if block.settings.title != blank %}                        
+            <h6>{{ block.settings.title }}</h6>        
+            {% endif %} 
+            {% if block.settings.sub_title != blank %}                         
+           <h4><a href="{{block.settings.link_1}}">{{ block.settings.sub_title }}</a></h4>      
+            {% endif %}               
+            </div>
+            {% if block.settings.desc != blank %}                         
+            <p>{{ block.settings.desc }}</p>        
+            {% endif %} 
+             {% if block.settings.price != blank %}                         
+            <p class="price">{{ block.settings.price }}</p>       
+            {% endif %} 
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}" style="" class="btn">{{ block.settings.button }}<div class="overlay"></div></a>{% endif%}
+          </div>  
+        </div>
+        <div  class="grid__item wide--one-half post-large--one-half large--one-half medium--grid__item small-grid__item">  
+          <div class="ovrly10">
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif%}
+
+            {% if block.settings.image != blank %}
+            <div class="main-image"><img src="{{ block.settings.image | img_url: '750x' }}" alt="{{ block.settings.title }}" /></div>
+            
+            {% else %}
+            <div class="main-image"><img src="//via.placeholder.com/767x500"></div>
+            
+            {% endif%}           
+            {% if block.settings.link != blank %}  </a>
+            {% endif%}
+            <div class="overlay_img"></div>
+          </div>
+          
+        </div>
+      </div>
+      {% endif%}
+      {% endfor %}
+      {% endif %}
+      <div class="dt-sc-hr-invisible-large"></div> 
+    </div>
+  </div>
+</div>
+
+<style>
+  
+  .grid-banner-type-32 .section-one {  background: {{ section.settings.content_bg }}; }
+  .grid-banner-type-32 .block-content .price {color:{{ section.settings.price_color }}; }
+  .grid-banner-type-32 .block-content h6,.grid-banner-type-32 .block-content h4 a:hover {color:{{ section.settings.title_color }}; }
+  .grid-banner-type-32 .block-content h4 {color:{{ section.settings.sub_title_color }}; }
+  .grid-banner-type-32 .block-content p { color:{{ section.settings.desc_color }}; }
+  {% if section.settings.overlay_1 %} .grid-banner-type-32 .overlay { background:{{ section.settings.overlay_bgcolor_1 | color_modify: 'alpha', 0.7 }}; } {% endif %}
+
+  {% if section.settings.heading_image_need %}  .grid-banner-type-32 .border-title:after {  content:"";background-image:url({{ section.settings.heading_image | img_url: 'master' }});display:inline-block;background-repeat:no-repeat;width:105px;height:17px;} {% endif %}
+
+</style>
+
+{% schema %}
+{
+"name": "One Half Grid",
+"class": "index-section",
+"settings": [
+{
+"type": "checkbox",
+"id": "show_image_1",
+"label": "Show Image"
+},
+{
+"type": "image_picker",
+"id": "image_1",
+"label": "Image",
+"info": "Size: 1920x1280"
+},
+{
+"type": "color",
+"id": "bg_color",
+"label": "Bg color",
+"default":"#000"	
+}, 	
+{
+"type": "checkbox",
+"id": "heading_image_need",
+"label": "Show Heading Image ?"
+
+},	
+{
+"type": "image_picker",
+"id": "heading_image",
+"label": "Image",
+"info": "Size: 105x17"
+
+},
+{
+"type": "text",
+"id": "sub_heading",
+"label": "Sub Heading"
+},
+{
+"type": "color",
+"id": "sub_heading_clr",
+"label": "Sub Heading color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "heading",
+"label": "Heading"
+},
+{
+"type": "color",
+"id": "heading_clr",
+"label": "Heading color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "content_bg",
+"label": "Content Bg",
+"default":"#000"	
+}, 	
+{
+"type": "color",
+"id": "title_color",
+"label": "Heading color",
+"default":"#000"	
+}, 	
+{
+"type": "color",
+"id": "sub_title_color",
+"label": "Sub heading",
+"default":"#000"	
+},
+{
+"type": "color",
+"id": "price_color",
+"label": "Price",
+"default":"#000"	
+},
+{
+"type": "color",
+"id": "desc_color",
+"label": "Description",
+"default":"#000"	
+},
+
+{
+"type": "checkbox",
+"id": "overlay_1",
+"label": "Overlay"
+
+},
+{
+"type": "color",
+"id": "overlay_bgcolor_1",
+"label": "Overlay Bg",
+"default":"#fff"	
+}
+
+],
+"blocks": [
+{
+"type": "Image",
+"name": "text block",
+"settings": [ 
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image",
+"info": "Size: 750x489"
+},
+{
+"type": "image_picker",
+"id": "icon",
+"label": "Icon",
+"info": "Size: 100x100"
+},
+{
+"type": "select",
+"id": "alignment",
+"label": "Image alignment",
+"default": "left",
+"options": [
+{
+"value": "left",
+"label": "Left"
+},
+{
+"value": "right",
+"label": "Right"
+}        
+]
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Collection Name"	
+},
+
+{
+"type": "text",
+"id": "sub_title",
+"label": "Sub Heading",
+"default": "Traditional Methods"	
+},
+{
+"type": "url",
+"id": "link_1",
+"label": "Link"
+},
+
+{
+"type": "text",
+"id": "price",
+"label": "Price",
+"default": "Start from $56"	
+},
+{
+"type": "textarea",
+"id": "desc",
+"label": "Description",
+"default": "Sample Description"	
+},
+
+{
+"type": "text",
+"id": "button",
+"label": "Button",
+"default": "View all collection"	
+},    
+
+{
+"type": "url",
+"id": "link",
+"label": "Link"          
+}      
+
+]
+}
+],
+"presets": [
+{
+"name": "One Half Grid",
+"category": "Image",
+"blocks": [
+{
+"type": "Image"
+},
+{
+"type": "Image"
+}        
+]
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,139 @@
+<div data-section-id="{{ section.id }}" data-section-type="wide-banner-type-2" class="wide-banner-type-2" style="{% if section.settings.image_1 != blank %}background-image:url('{{ section.settings.image_1 | img_url: 'master' }}');background-repeat:no-repeat;background-size:cover;background-position:center;{% else %}{% endif %}background-color:{{section.settings.border_color}};">  
+  <div class="grid-uniform">  
+    <div class="container">
+      <div class="dt-sc-hr-invisible-large"></div>
+      <div class="wide-banner-type-2-block wow fadeInUp animated">      
+        <div class="wide-banner-type-2-content right">  
+          <div class="wide-banner-type-2-rounded wow">
+            {% if section.settings.title_1 != blank %}
+            <h6 style="color:{{ section.settings.title_color }}">{{ section.settings.title_1 }}</h6>
+            {% endif %}
+            {% if section.settings.titleshadow_1 != blank %}             
+            <h2 style="color:{{ section.settings.shadowtext_color }}"  class="small-title">{{ section.settings.titleshadow_1 }}</h2>             
+            {% endif %}
+            {% if section.settings.text_1 != blank %}
+            <p style="color:{{ section.settings.text_color }}">{{ section.settings.text_1 }}</p>
+            <div class="dt-sc-hr-invisible-very-small"></div>
+            {% endif %}
+            {% if section.settings.button_1 != blank %}
+            <a class="btn" href="{{ section.settings.link_1 }}">{{ section.settings.button_1 }}</a>    
+            {% endif %}              
+          </div> 
+        </div>          
+      </div>
+      <div class="dt-sc-hr-invisible-large"></div>
+    </div>
+  </div>
+</div> 
+
+<style>
+  
+  {% if section.settings.show_overlay_clr != blank %}.wide-banner-type-2::before { background:{{section.settings.border_color}};}{% endif %}  
+  .wide-banner-type-2-content a.btn { color:{{ section.settings.button_txt_color }};background:none;border:2px solid {{ section.settings.button_bg_color }}; }
+  .wide-banner-type-2-content a.btn:hover { border:2px solid {{ section.settings.hover_button_bg_color }}; background-color:{{ section.settings.hover_button_bg_color }} ; color:{{ section.settings.hover_button_txt_color }} ;}
+  
+</style>
+
+{% schema %}
+{
+"name": "Wide Banner 2",
+"class": "index-section",
+"settings": [
+{
+"type": "color",
+"id": "border_color",
+"label":"Bg color",
+"default": "#000"
+},
+{
+"type": "checkbox",
+"id": "show_overlay_clr",
+"label":"Show Overlay Color"
+
+},
+{
+"type": "image_picker",
+"id": "image_1",
+"label": "Image",
+"info": "Size: 1920x940"
+},
+{
+"type": "text",
+"id": "title_1",
+"label": "Heading"
+},
+{
+"type": "color",
+"id": "title_color",
+"label":"Title color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "titleshadow_1",
+"label": "Sub Heading"
+},
+{
+"type": "color",
+"id": "shadowtext_color",
+"label":"Text color",
+"default": "#000"
+},
+{
+"type": "textarea",
+"id": "text_1",
+"label": "Description"
+},
+{
+"type": "color",
+"id": "text_color",
+"label":"Text color",
+"default": "#000"
+},
+
+{
+"type": "text",
+"id": "button_1",
+"label": "Button text"
+},
+{
+"type": "color",
+"id": "button_bg_color",
+"label":"Border color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "button_txt_color",
+"label":"Text color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "hover_button_bg_color",
+"label":"Hover Background color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "hover_button_txt_color",
+"label":"Hover Text color",
+"default": "#fff"
+},
+{
+"type": "url",
+"id": "link_1",
+"label": "Link URL"
+}
+
+
+],
+"presets": [
+{
+"name": "Wide Banner 2",
+"category": "Image",
+"blocks": []
+}
+]
+}
+{% endschema %}

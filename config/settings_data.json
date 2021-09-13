@@ -1,0 +1,3147 @@
+{
+  "current": {
+    "logo_use_image": true,
+    "logo_img_height": "90",
+    "logo_max_height": "90",
+    "logo_mob_height": "70",
+    "svg_logo": "<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 1446 1250\"><defs><style>.cls-1{fill:#711b72;}<\/style><\/defs><path class=\"cls-1\" d=\"M158.08,727.91c12.71,2.91,24,5.93,35.37,8,22.72,4.15,44.73,2.79,65.16-9.59,8.84-5.36,15.95-12.38,22.48-20.29,20.45-24.8,36.43-52.49,52.4-80.21q57-98.91,114.15-197.73c.48-.83.88-1.71,2-3.91-74.86-.72-148.81.36-223.59.11.64-5.95.65-11.48,1.9-16.71,5-20.87,10.1-41.71,15.68-62.42,2.24-8.33,2.84-8.15,11.66-8.14,40.83,0,81.66-.05,122.49.08,37.32.11,74.65.46,112,.64q53.73.27,107.46.41h6.17c-4.16,6.92-7.79,12.83-11.28,18.81Q520.48,479.47,448.88,602q-28.25,48.3-56.56,96.56c-1.54,2.63-3.27,5,1.89,5,40.82.11,81.64.08,122.46.54,6.53.07,9.61-2,12.36-7.87q54.71-116.11,109.89-232,27.72-58.44,55.34-116.92c1.65-3.49,3.57-4.88,7.54-4.85q44.49.39,89,.27c3.51,0,5.39,1.07,6.87,4.26q32.28,69.54,64.76,139,48.84,104.79,97.67,209.6,11.38,24.45,22.85,48.87c.74,1.58,1.7,3.07,3.13,5.63,4.2-7.78,7.93-14.57,11.55-21.41,15.88-30,31.68-60.09,47.69-90.05,1.71-3.2,1.68-5.53-.06-8.69Q968.84,491.42,892.63,352.9c-5.3-9.61-5.14-9.86,5.6-9.85,26.83,0,53.66.12,80.49,0,3.89,0,6,1.23,7.74,4.69q49.06,98.85,98.36,197.61c.74,1.49,2.11,2.65,3.19,4a31.44,31.44,0,0,0,2.76-3.91q49.8-98.24,99.44-196.55c1.86-3.7,4-4.94,8-4.9,28,.24,56,.24,84,.33,1.48,0,3,.12,5.68.24-1.16,3.36-1.79,6.35-3.15,8.95q-32.34,61.73-64.84,123.36-84.75,161.13-169.39,322.32c-2,3.76-4.1,5.21-8.41,5.16-37-.4-74-.55-111-.77-2.16,0-4.33,0-6.49,0-15.45.26-11.21,2.78-18-11.49q-16.5-34.74-32.37-69.77c-1.9-4.18-4.16-5.91-9-5.9q-70.49.17-141-.16-50-.15-100-.63c-4.52,0-6.81,1.42-8.73,5.48-11.73,24.84-23.9,49.47-35.51,74.37-2.51,5.38-5.26,7.55-11.48,7.48-44-.52-88-.62-132-.78-10.16,0-20.32.37-30.48.3-34.33-.21-68.65-.64-103-.78-12.46,0-25,1.42-37.38.57-44-3-77.66-23.57-100.55-61.42C162.91,736.85,160.79,732.76,158.08,727.91ZM746.65,440l-1.65,0c-29.86,64.76-59.73,129.51-90.11,195.38H835.21C805.47,569.68,776.06,504.82,746.65,440Z\"><\/path><path class=\"cls-1\" d=\"M712.31,994.46c6.18-6.26,9.41-7.17,22.93-6.21-1.41,2.33-2.56,4.44-3.89,6.42-8.06,12-16.28,24-24.19,36.09a36.57,36.57,0,0,0-4.57,10.46c-.58,2.14-.4,5.72.94,6.82,1.61,1.32,5.26,1.64,7.26.72a91.33,91.33,0,0,0,15-8.8A54,54,0,0,0,742,1022c5.67-10.36,12.42-20.11,18.56-30.22,1.75-2.87,3.9-4.29,7.29-4.18,4.43.15,8.86,0,14,0-1,1.71-1.83,3.08-2.7,4.39-8.42,12.6-17,25.09-25.18,37.85a37,37,0,0,0-4.81,11.93c-1.18,5.5,2.53,8.87,7.6,6.52a79.33,79.33,0,0,0,16.7-10.61c13.5-11.07,22.06-26.12,31.35-40.53,5.53-8.58,12.27-11.22,23.6-8.72-5.47,8.19-10.92,16.08-16.09,24.15-5.29,8.27-10.52,16.59-15.31,25.15-1.84,3.29-4.53,7.65-.92,11.06s7.7.34,10.93-1.67c12.25-7.61,23-16.9,31-29.11,4.83-7.39,9.71-14.75,14.52-22.15.85-1.3,1.46-2.75,2.6-4.95l-12.82-.74,0-1.92c2.74-.13,5.52-.64,8.2-.29,5.06.65,8.08-1.43,10.39-5.77,2.43-4.54,5.59-8.69,8.06-13.21,1.68-3.07,3.91-4.14,7.26-4,4.43.2,8.87,0,14.54,0-5.14,7.68-9.74,14.58-14.35,21.47.21.5.41,1,.61,1.51h21.23l0,2.52c-3.32,0-6.73.47-9.95-.09-10.82-1.88-17.54,2.28-22.56,12.09-5.59,10.93-12.77,21-19.19,31.56-1.11,1.83-2.37,3.84-2.62,5.89-.33,2.75-.78,6.64.73,8.15s5.85,1.93,8.13.94c13.95-6,26-14.58,34.25-27.84q9.46-15.28,19.29-30.36a7.21,7.21,0,0,1,4.63-3.09c5.1-.4,10.26-.15,15.94-.15-2.54,3.88-5.06,7.71-7.56,11.55-7.09,10.88-14.26,21.71-21.19,32.69a39.23,39.23,0,0,0-4,9.11c-1.72,5.41,2.13,9.71,7.14,7.33a77.51,77.51,0,0,0,17.32-11.44c14.13-12.28,24.41-27.67,33.36-43.94,1.92-3.49,4.08-5.36,8.11-5.18,3.75.18,7.52,0,12,0l-38.3,64.56,1.05,1.13c26.12-9,44.21-28.52,61.37-49.26l1.09,1.1c-4.31,5.13-8.4,10.45-13,15.35-11.89,12.76-24.79,24.63-41.29,30.77-9.33,3.48-15.28,9.21-21,16.87-14.58,19.7-33.8,32.43-58.18,37.62a61.76,61.76,0,0,1-36-2.59c-6.87-2.63-11.94-7.35-13.48-14.89-2.5-12.22,3.72-21.27,16.71-23.85a49.46,49.46,0,0,1,15.53-.26,6.53,6.53,0,0,1-1.32.61c-11.35,2.53-17.48,10.47-16.38,21.28,1.16,11.5,9.51,19.12,21.07,19.17,17.72.08,31.47-8.64,42.34-21.34,9.81-11.45,18-24.27,26.74-36.65a84.31,84.31,0,0,0,9.35-17.47c-1.59,1.34-3.13,2.75-4.79,4-7.26,5.46-14.42,11.09-21.93,16.19-2.34,1.58-5.62,2.14-8.54,2.4-10.66,1-15.83-5.32-13.3-15.79.22-.93.52-1.84,1.25-4.37-2.63,1.88-4.06,3-5.55,4-7,4.69-13.77,10-21.23,13.79-4,2.08-9.35,2.51-14,2.3-9.23-.41-13-5.65-11.54-14.78.25-1.61.69-3.18,1.32-6-1.84,1.36-2.79,2-3.7,2.74-5.86,4.66-11.4,9.81-17.68,13.8a33.37,33.37,0,0,1-13.5,4.57c-9.52,1.15-15.07-5.34-13.47-14.85.27-1.61.68-3.18,1.36-6.32-2.51,2.15-3.95,3.33-5.34,4.57-7.07,6.36-14,13-23.56,15.43a34.85,34.85,0,0,1-7.87,1.07c-8,.11-12.33-4.72-11.72-12.68.1-1.28.21-2.56.44-5.22-3.51,2.82-5.94,5.22-8.77,7-6.05,3.73-12,8.11-18.56,10.43-12.17,4.3-18.18.42-20.81-12.36-1.2.87-2.25,1.51-3.16,2.29-6.52,5.65-13.51,10.17-22.46,11-11.22,1.05-18.57-5-19.36-16.36-.17-2.42,0-4.87,0-8.76-2.34,1.87-3.6,2.76-4.73,3.79-13.25,11.92-28.3,19.7-46.41,21-20.7,1.46-32.4-14.91-23.39-33.67,7.76-16.18,21.45-26,37.91-32.13,7.28-2.74,14.78-3.81,22.54-2.12,4.53,1,8.22,3,9.58,7.69a10.16,10.16,0,0,1-3.91,11.61c-6.28,4.2-12.95,8.21-20,10.82-8.69,3.21-18,4.72-26.91,7.43a7.51,7.51,0,0,0-4.37,4.88c-2.11,12.36,8.25,21.92,20.74,20,16.41-2.59,28.44-12.34,39.74-23.42,1.25-1.23,1.9-3.09,2.77-4.69,9.6-17.55,23.59-29.63,43.43-33.89,8.77-1.88,17.1-1.14,21.83,8.32a1.8,1.8,0,0,0,.73.66A3.57,3.57,0,0,0,712.31,994.46Zm-5.92,5.53c.1-11.25-3.69-14.69-11.82-13.41a18,18,0,0,0-7.4,2.67c-14.83,10.39-23.93,24.76-27.62,42.34-1.15,5.46-1.14,11.79,4.76,15.13s10.91-.32,15.38-3.87c9.7-7.71,16.54-17.71,21.59-28.88C703.72,1008.59,705.36,1002.85,706.39,1000Zm-123,20.77c2,0,3.05.23,3.92,0,9.94-3.06,19.5-7.08,27-14.51,3.44-3.42,6-7.85,8.3-12.19.86-1.65.55-5.13-.67-6.32-1.42-1.39-4.86-2.25-6.61-1.49-4.79,2.08-9.68,4.53-13.57,7.93A63,63,0,0,0,583.39,1020.76Z\"><\/path><path class=\"cls-1\" d=\"M457.69,208.59l69-66.08,66.38,62.38c-6.42,6.55-12.5,12.85-18.69,19Q551.79,246.5,529.1,269c-1.93,1.93-3.29,3.28-6.07.68-20.86-19.58-41.88-39-62.84-58.45C459.48,210.57,458.85,209.83,457.69,208.59Z\"><\/path><path class=\"cls-1\" d=\"M534.76,932.16c-7.31-5.88-15-8.09-22.81-9.64-29.31-5.8-70.35,7.53-88.21,37.5-6.45,10.81-9.43,22.51-6.58,35,5,21.88,24.66,24,38.74,12.56,9.2-7.51,13.13-17.78,13.57-29.45.19-4.76,0-9.54.79-14.55a82.32,82.32,0,0,1,1.1,9.06c.22,16.64-4.46,31-19.81,39.83-13.52,7.82-33,6-42.15-4.51-9.89-11.32-9.56-24.36-4.33-37.54,4.69-11.85,13.24-20.77,23.53-27.87,21.21-14.63,44.52-22.75,70.6-22.81a126.8,126.8,0,0,1,42.07,7.21c2.11.72,4.9.31,7.14-.37,6.28-1.91,12.44-4.22,18.94-5.48l-18.7,8.46c2.19,1.78,3.28,2.72,4.43,3.6,16.52,12.67,15.63,33.3-2.38,43.72-6.07,3.51-13.24,5.16-19.93,7.58-1.48.54-3.08.73-4.79,2.31a15.75,15.75,0,0,0,3.14,1.37c2.77.54,5.66.6,8.38,1.34,15.89,4.31,19.55,16.23,14.51,32-4.68,14.62-15.83,23.13-29.9,27.89-9.38,3.18-19.08,5.13-28.91,2a28.25,28.25,0,0,1-9.18-4.75c-5.54-4.59-6.36-11.48-2.56-16.44,4.09-5.34,11-6.1,17.74-1.6-1.25,1.5-2.58,2.88-3.67,4.43-3,4.31-3.55,9.16-1.26,13.73,2.14,4.28,6.73,5,10.9,4.28a36.05,36.05,0,0,0,12.12-4.13c12.84-7.65,21.22-26.45,18.8-40.95-1.74-10.44-7.68-16.18-18.19-17.58l-6.67-.9c6-1.67,10.91-2.73,15.61-4.43,15-5.44,22.74-17.46,21.19-32.31a18.69,18.69,0,0,0-.63-3.43c-3.42-11.45-8-13.09-15.08-3.9-10,13-18.57,27.14-27.8,40.75s-17.82,28.21-28.33,41c-13,15.82-30.34,24.87-51.23,27-10.12,1-19.63.26-28.57-4.41-7.91-4.13-13-10.38-12.2-20,.64-8.2,7.64-12.81,15.33-10.1,5.74,2,7,9.48,2.35,13.92-6,5.72-4.85,13.37,3.08,16.69,12.88,5.4,25.22,3,36.51-4.61,12.89-8.7,21.3-21.41,29.21-34.39,11.18-18.34,21.2-37.52,36-53.33,7.08-7.58,15.66-13.77,23.6-20.54C531.44,934.26,532.85,933.48,534.76,932.16Z\"><\/path><\/svg>",
+    "favicon_enable": true,
+    "preloader_enable": false,
+    "base_font": "Google+Poppins",
+    "type_base_size": "16px",
+    "body_weight_size": "normal",
+    "text_spacing": "0",
+    "header_font": "Google+Josefin+Sans",
+    "type_weight_size": "normal",
+    "type_uppercase": false,
+    "heading_spacing": "0",
+    "type_header_base_size": "60px",
+    "type_header_base_size_2": "50px",
+    "type_header_base_size_3": "36px",
+    "type_header_base_size_4": "28px",
+    "type_header_base_size_5": "22px",
+    "type_header_base_size_6": "18px",
+    "sub_header_font": "Google+Pinyon+Script",
+    "other_font": "Google+Poppins",
+    "newsletter_font": "Google+Poppins",
+    "color_body_bg": "#ffffff",
+    "overlay_bg": "#aaaaaa",
+    "color_borders": "#e4e4e4",
+    "black_borders": "#030d1d",
+    "light_bg": "#fdefe1",
+    "color_primary": "rgba(0,0,0,0)",
+    "color_primary_border": "#711b72",
+    "color_button_primary_text": "#000000",
+    "primary_hover_btn": "#711b71",
+    "primary_hover_btn_text": "#ffffff",
+    "color_sold": "#db0022",
+    "color_sold_text": "#ffffff",
+    "sale_bg": "#711b72",
+    "sale_button_text": "#ffffff",
+    "new_bg": "#711b72",
+    "new_button_text": "#ffffff",
+    "offer_bg": "#711b72",
+    "offer_button_text": "#ffffff",
+    "color_body_text": "#848484",
+    "link_color": "#151413",
+    "color_primary_color": "#711b72",
+    "title_border": "#777777",
+    "heading_image_need": true,
+    "color_heading_type1_color": "#711b72",
+    "color_heading_color": "#232323",
+    "secondary_image_use": true,
+    "show_img_height": false,
+    "products_img_height": "",
+    "products_img_height_tab": "",
+    "product_row_mob": "double",
+    "overlay_use": false,
+    "product_overlay": "#ffffff",
+    "product_hover_overlay": "#4e4e53",
+    "products_icon_bg": "#000000",
+    "products_icon_clr": "#ffffff",
+    "products_icon_hover_bg": "#711b72",
+    "products_icon_hover_clr": "#ffffff",
+    "products_gutter": "15",
+    "products_border_radius": "0",
+    "products_border_full": false,
+    "products_full_border_width": "1",
+    "products_full_border": "#ffffff",
+    "products_full_hover_border": "#cbba9c",
+    "products_border_use": false,
+    "products_border_width": "2",
+    "products_border": "#711b72",
+    "products_border_2": "#0fa1ea",
+    "products_det_bg": "rgba(0,0,0,0)",
+    "product_title_bg_color": "rgba(0,0,0,0)",
+    "product_title_color": "#151413",
+    "product_title_hover_color": "#711b72",
+    "product_price": "#848484",
+    "product_cmp_price": "#aaaaaa",
+    "product_vendor": "#bcbcbc",
+    "product_label_color": "#777777",
+    "show_ex_tax": true,
+    "ex_tax": "Ex of Sale Tax",
+    "sidebar_bg": "#dddddd",
+    "sidebar_text": "#231f1e",
+    "use_breadcrumb": true,
+    "breadcrumb_bg_image": true,
+    "breadcrumb_bg_color": "#711b72",
+    "breadcrumb_text_color": "#ffffff",
+    "breadcrumb_text_hover_color": "#ffffff",
+    "top_to_btm": false,
+    "header_style_1": "style_8",
+    "use_sticky_header": true,
+    "footer_style_1": "style_5",
+    "enable_quick_view": true,
+    "show_prt_quickview_desc": true,
+    "display_quick_availability": true,
+    "display_quick_subtotal": true,
+    "animae_enable": true,
+    "collections_show_sale_circle": true,
+    "collections_show_sold_out_circle": false,
+    "offer_price_enable": false,
+    "collections_show_new_circle": false,
+    "display_vendor": true,
+    "display_subtotal": true,
+    "enable_product_detail_link_icon": true,
+    "enable_add_cart": true,
+    "enable_compare": true,
+    "enable_wishlist": true,
+    "display_color_variant": false,
+    "display_item_size": false,
+    "product_review": false,
+    "enable_sidebar_multiple_choice": true,
+    "collection_sidebar_use": "left_sidebar",
+    "collection_sidebar_mobile": true,
+    "product_page_sidebar": "full_width",
+    "product_sidebar_mobile": true,
+    "blog_page_sidebar": "full_width",
+    "use_custom_list_collection": true,
+    "list-collections": "collection-menu",
+    "collection_btn_text": "Read More",
+    "single_product_layout_type": "layout_style_1",
+    "display_availability": true,
+    "enable_color_swatch": false,
+    "color_swatch_style": "variant",
+    "enable_linked_option": true,
+    "enable_zoom_option": true,
+    "cart_notes_enable": true,
+    "use_ajax_cart": true,
+    "cart_title_bg": "#711b72",
+    "cart_title_clr": "#ffffff",
+    "show_shipping_calculator": false,
+    "shipping_calculator_heading": "Get shipping estimates",
+    "shipping_calculator_default_country": "United States",
+    "search_grid": "4",
+    "search_results_per_page": "12",
+    "show_search_prt": false,
+    "display_popup_newsletter": false,
+    "pop_up_newsletter_img_show": true,
+    "popup_newsletter_bg": "#ffffff",
+    "popup_newsletter_title": "Newsletter",
+    "popup_newsletter_message": "Subscribe to our newsletters now and stay up to\ndate with new collections, latest lookbooks and\nexclusive offers.",
+    "popup_newsletter_text": "#000000",
+    "popup_newsletter_form": "#fafafa",
+    "popup_newsletter_form_txt": "#7c7c7c",
+    "popup_newsletter_form_txt_hvr": "#777777",
+    "popup_news_close": "#000000",
+    "form_note": "Don’t show this popup again",
+    "count_down_enable": true,
+    "count_down_home": true,
+    "count_down_collections": true,
+    "count_down_prodetails": true,
+    "prodetail_deal_label": true,
+    "prodetail_deal_heading": "Hurry, Only few item(s) left!",
+    "home_productdeal_time": "3036072312913@10\/24\/2029_00:00:00\n3236665851985@10\/24\/2019_00:00:00",
+    "dealbtn": "#000",
+    "dealbtn_text": "#ffffff",
+    "social_twitter_link": "https:\/\/twitter.com\/zayfied1",
+    "social_facebook_link": "https:\/\/www.facebook.com\/zayfied",
+    "social_pinterest_link": "#",
+    "social_google_plus_link": "contact@zaybeauty.com",
+    "social_instagram_link": "https:\/\/www.instagram.com\/zayfied",
+    "social_tumblr_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCCqKaLbMSM_SDWQAV-p6crA",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_rss_link": "",
+    "social_linkedin_link": "",
+    "social_sharing_blog": true,
+    "social_sharing_count": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_google": true,
+    "social_sharing_style": "normal",
+    "display_currency": true,
+    "currency_1_unit": "USD",
+    "currency_2_unit": "EUR",
+    "currency_3_unit": "GBP",
+    "currency_4_unit": "AUD",
+    "currency_5_unit": "INR",
+    "currency_6_unit": "JPY",
+    "currency_7_unit": "CAD",
+    "currency_8_unit": "CNY",
+    "currency_9_unit": "AED",
+    "currency_10_unit": "RUB",
+    "password_bg_img": true,
+    "password_logo": true,
+    "logo_txt_color": "#711b72",
+    "pwd_header": "Opening Soon",
+    "pwd_header_color": "#711b72",
+    "pwd_show_share_buttons": true,
+    "pwd_social_message": "Spread the word",
+    "pwd_newsletter_enable": true,
+    "pwd_newsletter_form_heading": "Be the first to know when we launch.",
+    "pwd_newsletter_form_heading_clr": "#000000",
+    "pwd_newsletter_inpt_bg": "#fafafa",
+    "pwd_newsletter_btn_bg": "#711b72",
+    "pwd_newsletter_btn_txt": "#ffffff",
+    "pwd_newsletter_btn_hoverbg": "#711b72",
+    "pwd_newsletter_btn_hovertxt": "#ffffff",
+    "pwd_placeholder_txt": "#848484",
+    "pwd_newsletter_placeholder": "Email address",
+    "pwd_newsletter_button_text": "Notify me",
+    "social_title_clr": "#000000",
+    "social_icon_clr": "#000000",
+    "social__icon_hoverclr": "#711b72",
+    "checkout_header_image": "",
+    "checkout_use_storefront_logo": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Zay_beauty-01.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#711b72",
+    "checkout_button_color": "#711b72",
+    "checkout_error_color": "#f45b4f",
+    "homepage_sidebar": "false",
+    "homepage_sidebar_mobile": "true",
+    "btn_transparent": "false",
+    "sections": {
+      "sidebar-category": {
+        "type": "sidebar-category",
+        "settings": {
+          "enable_sidecategory": true,
+          "linkedlist": "category",
+          "linkedlist_title": "Category"
+        }
+      },
+      "sidebar-bestsellers": {
+        "type": "sidebar-bestsellers",
+        "settings": {
+          "show_best_products": true,
+          "title": "Best Sellers",
+          "bestseller": "best-seller",
+          "limi": "4"
+        }
+      },
+      "sidebar-promoimage": {
+        "type": "sidebar-promoimage",
+        "blocks": {
+          "1477474976957": {
+            "type": "content",
+            "settings": {
+              "promo_link": "",
+              "promo_title": "Promo Text"
+            }
+          },
+          "1477475002420": {
+            "type": "content",
+            "settings": {
+              "promo_link": "",
+              "promo_title": "Promo Text"
+            }
+          }
+        },
+        "block_order": [
+          "1477474976957",
+          "1477475002420"
+        ],
+        "settings": {
+        }
+      },
+      "sidebar-colors": {
+        "type": "sidebar-colors",
+        "blocks": {
+          "abe2b992-a6b9-4989-a499-1b6859336787": {
+            "type": "image",
+            "settings": {
+              "title": "Brights",
+              "color": "shopify:\/\/shop_images\/Ellipse_17.png"
+            }
+          },
+          "1a38c0e7-c1d6-4135-b43a-c45267ece18e": {
+            "type": "image",
+            "settings": {
+              "title": "Browns",
+              "color": "shopify:\/\/shop_images\/Ellipse_18_4e48d812-134e-4cd6-99cc-1b2d672298b0.png"
+            }
+          },
+          "872fb021-5a7a-471e-9509-b50d4fa7e2e1": {
+            "type": "image",
+            "settings": {
+              "title": "Darks",
+              "color": "shopify:\/\/shop_images\/Ellipse_16.png"
+            }
+          },
+          "05748228-834b-4339-8cd8-03c594870f3b": {
+            "type": "image",
+            "settings": {
+              "title": "Nudes",
+              "color": "shopify:\/\/shop_images\/Ellipse_17_8ce5398d-3449-4280-b4f6-fa8ae635a976.png"
+            }
+          },
+          "8f744cf4-d4de-4e0a-bd45-e78874fd5e49": {
+            "type": "image",
+            "settings": {
+              "title": "Orange Corals",
+              "color": "shopify:\/\/shop_images\/Ellipse_21.png"
+            }
+          },
+          "f07be90e-bd8a-473b-8e11-ebb63d67d484": {
+            "type": "image",
+            "settings": {
+              "title": "Pinks",
+              "color": "shopify:\/\/shop_images\/Ellipse_14.png"
+            }
+          },
+          "8889e908-86bb-4c15-af54-9de1ae84ae6c": {
+            "type": "image",
+            "settings": {
+              "title": "Purples",
+              "color": "shopify:\/\/shop_images\/Ellipse_20.png"
+            }
+          },
+          "b1260bf2-1f78-41fa-bf24-aaa1f03d4e77": {
+            "type": "image",
+            "settings": {
+              "title": "Reds",
+              "color": "shopify:\/\/shop_images\/Ellipse_19.png"
+            }
+          }
+        },
+        "block_order": [
+          "abe2b992-a6b9-4989-a499-1b6859336787",
+          "1a38c0e7-c1d6-4135-b43a-c45267ece18e",
+          "872fb021-5a7a-471e-9509-b50d4fa7e2e1",
+          "05748228-834b-4339-8cd8-03c594870f3b",
+          "8f744cf4-d4de-4e0a-bd45-e78874fd5e49",
+          "f07be90e-bd8a-473b-8e11-ebb63d67d484",
+          "8889e908-86bb-4c15-af54-9de1ae84ae6c",
+          "b1260bf2-1f78-41fa-bf24-aaa1f03d4e77"
+        ],
+        "settings": {
+          "enable_shop_by_tags_1": true,
+          "shop_by_tags_1_title": "Shop By Color"
+        }
+      },
+      "sidebar-tag-filters": {
+        "type": "sidebar-tag-filters",
+        "blocks": {
+          "1477476983857": {
+            "type": "text",
+            "settings": {
+              "enable_shop_by_tags": false,
+              "shop_by_tags_title": "Shop By Weight",
+              "shop_by_tags_list": "100 ml, 150 ml, 200 ml, 250 ml, 300 ml"
+            }
+          },
+          "1477477078599": {
+            "type": "text",
+            "settings": {
+              "enable_shop_by_tags": true,
+              "shop_by_tags_title": "Shop By Price",
+              "shop_by_tags_list": "100 - 1000, 1000 - 2000, 2000 - 3000,  3000 - 4000, 4000 - 5000, 5000 - 17000"
+            }
+          },
+          "1477476999076": {
+            "type": "text",
+            "settings": {
+              "enable_shop_by_tags": false,
+              "shop_by_tags_title": "Shop By Flavour",
+              "shop_by_tags_list": "Neem, Sandal, Rose, Cherry, Lavendar, Aloe Vera, Jasmine"
+            }
+          },
+          "1556861180828": {
+            "type": "text",
+            "settings": {
+              "enable_shop_by_tags": false,
+              "shop_by_tags_title": "Shop By Brands",
+              "shop_by_tags_list": "Nyka, Liva, Fabell, Ellen's, Verisel, Cindrella, Wisteria, Laura, Mystique"
+            }
+          }
+        },
+        "block_order": [
+          "1477476983857",
+          "1477477078599",
+          "1477476999076",
+          "1556861180828"
+        ],
+        "settings": {
+        }
+      },
+      "faqs": {
+        "type": "faqs",
+        "blocks": {
+          "1483333359453": {
+            "type": "text",
+            "settings": {
+              "title": "How do I pick the perfect cosmetic for my skin?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333363494": {
+            "type": "text",
+            "settings": {
+              "title": "How To Apply Conditioner For Dry & Dandruff Hair?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333365467": {
+            "type": "text",
+            "settings": {
+              "title": "What cosmetic ingredients cause allergic reactions?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333367109": {
+            "type": "text",
+            "settings": {
+              "title": "How do I check the status of my order?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333368739": {
+            "type": "text",
+            "settings": {
+              "title": "Can I cancel my order?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333369796": {
+            "type": "text",
+            "settings": {
+              "title": "Do you allow exchanges?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          },
+          "1483333371707": {
+            "type": "text",
+            "settings": {
+              "title": "What are the shipping charges?",
+              "description": "Answer :<br>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official."
+            }
+          }
+        },
+        "block_order": [
+          "1483333359453",
+          "1483333363494",
+          "1483333365467",
+          "1483333367109",
+          "1483333368739",
+          "1483333369796",
+          "1483333371707"
+        ],
+        "settings": {
+        }
+      },
+      "brands": {
+        "type": "brands",
+        "settings": {
+          "title": ""
+        }
+      },
+      "header-model-1": {
+        "type": "header-model-1",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "currency_icon": "#413d3c",
+          "currency_icon_hover": "#a7b3ab",
+          "currency_bg": "#ffffff",
+          "currency_link": "#413d3c",
+          "logo_bar_bg": "#ffffff",
+          "logo_text": "#000000",
+          "logo_hover_text": "#a7b3ab",
+          "border_between_bars": "#e4e4e4",
+          "search_icon": "#413d3c",
+          "search_icon_hover": "#a7b3ab",
+          "search_bg": "#ffffff",
+          "search_text": "#413d3c",
+          "Btn_text": "#ffffff",
+          "search_btn_hover": "#413d3c",
+          "search_btn_bg": "#413d3c",
+          "search_btn_bghover": "#a7b3ab",
+          "minicart_icon": "#413d3c",
+          "minicart_icon_hover": "#a7b3ab",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#413d3c",
+          "minicart_link": "#413d3c",
+          "minicart_link_hover": "#a7b3ab",
+          "minicart_btn_bg": "#413d3c",
+          "minicart_btn_hover_bg": "#a7b3ab",
+          "minicart_btn_text": "#ffffff",
+          "minicart_btn_hover_text": "#413d3c",
+          "minicart_total": "#a7b3ab",
+          "menubar_bg": "#ffffff",
+          "menubar_links": "#413d3c",
+          "menubar_links_hover": "#a7b3ab",
+          "menu_active": "#a7b3ab",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#a7b3ab",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#a7b3ab"
+        }
+      },
+      "header-model-4": {
+        "type": "header-model-4",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "logo_bar_bg": "#ffffff",
+          "logo_text": "#413d3c",
+          "logo_hover_text": "#a7b3ab",
+          "currency_icon": "#413d3c",
+          "currency_icon_hover": "#a7b3ab",
+          "currency_bg": "#ffffff",
+          "currency_link": "#413d3c",
+          "search_icon": "#413d3c",
+          "search_icon_hover": "#a7b3ab",
+          "search_bg": "#ffffff",
+          "border_between_bars": "#e4e4e4",
+          "search_text": "#413d3c",
+          "Btn_text": "#413d3c",
+          "search_btn_hover": "#ffffff",
+          "search_btn_bg": "rgba(0,0,0,0)",
+          "search_btn_bghover": "#a7b3ab",
+          "minicart_count": "#ffffff",
+          "minicart_count_bg": "#413d3c",
+          "minicart_count_hover_bg": "#a7b3ab",
+          "minicart_count_hover_text": "#ffffff",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#413d3c",
+          "minicart_link": "#413d3c",
+          "minicart_link_hover": "#a7b3ab",
+          "minicart_btn_bg": "#ffffff",
+          "minicart_btn_hover_bg": "#413d3c",
+          "minicart_btn_text": "#ffffff",
+          "minicart_btn_hover_text": "#ffffff",
+          "minicart_total": "#a7b3ab",
+          "menubar_bg": "#413d3c",
+          "clr_border_image": false,
+          "menubar_links": "#ffffff",
+          "menubar_links_hover": "#a7b3ab",
+          "menu_active": "#a7b3ab",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#413d3c",
+          "menubar_dropdown_caption_hover": "#a7b3ab",
+          "menubar_dropdown_links": "#413d3c",
+          "menubar_dropdown_links_hover": "#a7b3ab"
+        }
+      },
+      "header-model-5": {
+        "type": "header-model-5",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "login_txt_clr": "#ffffff",
+          "login_hovertxt_clr": "#ffffff",
+          "logo_bar_bg": "#ffffff",
+          "logo_text": "#413d3c",
+          "logo_hover_text": "#a7b3ab",
+          "currency_icon": "#413d3c",
+          "currency_icon_hover": "#a7b3ab",
+          "currency_bg": "#ffffff",
+          "currency_link": "#413d3c",
+          "dropdown_icon": "#413d3c",
+          "dropdown_icon_hover": "#a7b3ab",
+          "dropdown_bg": "#ffffff",
+          "dropdown_link": "#413d3c",
+          "dropdown_hover_link": "#a7b3ab",
+          "search_icon": "#413d3c",
+          "search_icon_hover": "#a7b3ab",
+          "search_bg": "#ffffff",
+          "border_between_bars": "#e4e4e4",
+          "search_text": "#a7b3ab",
+          "Btn_text": "#ffffff",
+          "search_btn_hover": "#ffffff",
+          "search_btn_bg": "#413d3c",
+          "search_btn_bghover": "#a7b3ab",
+          "minicart_count": "#413d3c",
+          "minicart_count_bg": "#000000",
+          "minicart_count_hover_bg": "#000000",
+          "minicart_count_hover_text": "#000000",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#413d3c",
+          "minicart_link": "#413d3c",
+          "minicart_link_hover": "#a7b3ab",
+          "minicart_btn_bg": "#ffffff",
+          "minicart_btn_hover_bg": "#a7b3ab",
+          "minicart_btn_text": "#413d3c",
+          "minicart_btn_hover_text": "#ffffff",
+          "minicart_total": "#413d3c",
+          "menubar_bg": "#413d3c",
+          "menubar_links": "#ffffff",
+          "menubar_links_hover": "#a7b3ab",
+          "menu_active": "#a7b3ab",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#413d3c",
+          "menubar_dropdown_caption_hover": "#a7b3ab",
+          "menubar_dropdown_links": "#413d3c",
+          "menubar_dropdown_links_hover": "#a7b3ab"
+        }
+      },
+      "header-model-7": {
+        "type": "header-model-7",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "logo_bar_bg": "#ffffff",
+          "logo_text": "#b1a684",
+          "logo_hover_text": "#5f5842",
+          "currency_icon": "#b1a684",
+          "currency_icon_hover": "#5f5842",
+          "currency_bg": "#ffffff",
+          "currency_link": "#5f5842",
+          "search_bg": "#ffffff",
+          "search_icon": "#b1a684",
+          "search_icon_hover": "#5f5842",
+          "search_text": "#ffffff",
+          "search_btn_text": "#000000",
+          "search_btn_hover": "#484338",
+          "minicart_count": "#ffffff",
+          "minicart_count_bg": "#b1a684",
+          "minicart_count_hover_bg": "#5f5842",
+          "minicart_count_hover_text": "#ffffff",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#484338",
+          "minicart_link": "#484338",
+          "minicart_link_hover": "#b1a684",
+          "minicart_btn_bg": "#ffffff",
+          "minicart_btn_hover_bg": "#b1a684",
+          "minicart_btn_text": "#484338",
+          "minicart_btn_hover_text": "#484338",
+          "minicart_total": "#484338",
+          "menubar_bg": "#ffffff",
+          "clr_border_image": false,
+          "menubar_links": "#5f5842",
+          "menubar_links_hover": "#b1a684",
+          "menu_active": "#9fdef4",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#ffffff",
+          "menubar_dropdown_caption_hover": "#ffffff",
+          "menubar_dropdown_links": "#484338",
+          "menubar_dropdown_links_hover": "#b1a684"
+        }
+      },
+      "footer-model-1": {
+        "type": "footer-model-1",
+        "settings": {
+          "footer_bg_clr": "#ebebeb",
+          "footer_border_image": true,
+          "footer_border": "#423f3f",
+          "footer_bg_img": true,
+          "footer_heading_clr": "#d76e6e",
+          "footer_txt_clr": "#9f4343",
+          "footer_link_clr": "#4cc26f",
+          "footer_link_hover_clr": "#39389d",
+          "copyright_clr": "#ffffff",
+          "copyright_link": "#4cc26f",
+          "copyright_link_hover": "#717171",
+          "footer_menu_clr": "#717171",
+          "footer_menu_hover_clr": "#000000",
+          "show_footer_text": true,
+          "footer_text": "About us",
+          "footer_short_text": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit.Donec id tellus lacinia an, tincidunt risus ac, consequat velit",
+          "abt_link_clr": "#e7304c",
+          "abt_link_hover_clr": "#000000",
+          "abt_link_text": "Read More",
+          "abt_link": "\/collections\/all",
+          "footer_menu_1": "main-menu",
+          "footer_menu_1_title": "Footer menu 1",
+          "footer_menu_2": "footer",
+          "footer_menu_2_title": "Footer menu 2",
+          "footer_menu_3": "main-menu",
+          "footer_menu_3_title": "Footer menu 3",
+          "show_contact": true,
+          "footer_menu_4_title": "Contact us",
+          "footer_address": "11244 Niki Lauda 455 Newzealand",
+          "footer_contact_no": "Hotline : 8 (495) 989—20—11",
+          "office_hours": "Open - Close : 09:00 - 21:00",
+          "footer_contact_id": "Mail: hello@somedomain.com",
+          "footer_contact_link": "hello@somedomain.com",
+          "footer_social_enable": true,
+          "social_title": "Connect with us",
+          "social_link": "#5f5d5d",
+          "social_link_hover": "#ffffff",
+          "footer_menu": true,
+          "footer": "footer",
+          "footer_show_methods_of_payment": true,
+          "payment_color": "#000000",
+          "payment_hover_color": "#d5d5cd",
+          "accept_visa": true,
+          "payment_icon_1": "fab fa-cc-paypal",
+          "payment_icon_2": "fab fa-cc-visa",
+          "payment_icon_3": "fab fa-cc-amex",
+          "payment_icon_4": "fab fa-cc-mastercard",
+          "payment_icon_5": "fab fa-cc-diners-club",
+          "payment_icon_6": "fab fa-cc-discover",
+          "payment_icon_7": "",
+          "payment_icon_8": "",
+          "payment_icon_9": "",
+          "payment_icon_10": "",
+          "show_powered_by": true,
+          "copyright": "Copyright"
+        }
+      },
+      "footer-model-2": {
+        "type": "footer-model-2",
+        "settings": {
+          "footer_bg": false,
+          "disable_animation": true,
+          "footer_bg_color": "#f4f4f4",
+          "show_footer_logo": true,
+          "footer_logo_alt": "Huge",
+          "footer_border_clr": "#b6e32e",
+          "footer_title_clr": "#80a814",
+          "footer_text_clr": "#29d9cb",
+          "link_clr": "#d8ef1b",
+          "footer_link_hover_clr": "#81cf1e",
+          "show_contact": true,
+          "footer_contact_title": "Contact us",
+          "font_class_1": "fas fa-home",
+          "footer_address": "520,West valey, Anim ad minim,",
+          "font_class_2": "fas fa-phone",
+          "footer_contact_no": "+91 1234567890",
+          "footer_contact_id": "mail@somedomain.com",
+          "font_class_3": "far fa-envelope",
+          "footer_contact_link": "mail@somedomain.com",
+          "footer_social_enable": true,
+          "social_title": "Share with us",
+          "social_txt": "Special offers on social networks",
+          "social_link_border_clr": "#e84646",
+          "footer_link_clr": "#e84646",
+          "social_link_hover_clr": "#ffffff",
+          "social_link_bghover_clr": "#c0c276",
+          "footer_newsletter_enable": true,
+          "title": "Newsletter",
+          "text": "Subscribe our newsletter",
+          "newsletter_form_action": "",
+          "instagram_use": true,
+          "accessToken": "3317628269.1677ed0.36abb12d7c1b49aea51cfd8d83e8df36",
+          "ins_title": "Instagram Feed",
+          "ins_title_1_clr": "#e12727",
+          "sort": "most-recent",
+          "use_overlay": true,
+          "overlay": "#000000",
+          "footer_show_methods_of_payment": true,
+          "footer_dec": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit.",
+          "show_powered_by": true,
+          "copyright": "Copyright",
+          "copyright_bg": "#000000",
+          "copyright_text": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover": "#e9ef16"
+        }
+      },
+      "footer-model-4": {
+        "type": "footer-model-4",
+        "settings": {
+          "footer_bg": "#faecef",
+          "footer_title": "#170a0a",
+          "footer_text": "#1b1921",
+          "footer_link": "#271c1c",
+          "footer_link_hover": "#e5758d",
+          "footer_logo_enable": true,
+          "welcome_text": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum lacus meleifend menean viverra auctor blanditos.",
+          "footer_social_enable": true,
+          "footer_social_link": "#000000",
+          "footer_social_link_hover": "#ffffff",
+          "footer_social_link_hover_border": "#e5758d",
+          "footer_social_link_hover_bg": "#e5758d",
+          "footer_about_section": true,
+          "show_footer_best_products": true,
+          "footer_best_heading": "Best sellers",
+          "footer_bestseller_collection": "",
+          "footer_bestseller_collection_limit": "4",
+          "enable_footer_by_tags": true,
+          "footer_tags_heading": "Tags",
+          "footer_by_tags_list_tags": "Fashion, Beauty, Handbag, Shoes, Cosmetics, Tote, Kids, Jewel",
+          "footer_tag_link": "#000000",
+          "footer_tag_link_hover": "#ffffff",
+          "footer_tag_link_border": "#000000",
+          "footer_tag_link_hover_border": "#e5758d",
+          "footer_tag_link_hover_bg": "#e5758d",
+          "use_footer_links": true,
+          "footer_menu_4_title": "Support",
+          "footer_menu_4": "footer",
+          "footer_contact_enable": true,
+          "footer_contact_heading": "We are @",
+          "address_heading": "Address",
+          "footer_address": "No: 58 A, East Madison Street,<br>\r\nBaltimore, MD, USA 4508",
+          "email_heading": "Email",
+          "footer_email": "buddhathemes@somemail.com",
+          "footer_email_2": "support@somemail.com",
+          "phone_heading": "Phone",
+          "footer_phone": "+91 1234567890",
+          "footer_phone_2": "0803 - 080 - 3082",
+          "fax_heading": "Fax",
+          "footer_fax_no": "2542 2445 2566",
+          "use_footer_bottom": true,
+          "footer_bottom_bg": "#151515",
+          "copyright_text": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover": "#e5758d",
+          "copyright": "Copyright",
+          "use_powered_by": true,
+          "footer_show_methods_of_payment": true
+        }
+      },
+      "footer-model-5": {
+        "type": "footer-model-5",
+        "settings": {
+          "footer_left_bg": false,
+          "footer_left_bg_color": "#c54c4c",
+          "footer_title": "#d4d4d4",
+          "footer_text": "#ffffff",
+          "footer_link": "#ffffff",
+          "footer_link_hover": "#000000",
+          "footer_logo_enable": true,
+          "welcome_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+          "footer_show_methods_of_payment": true,
+          "payment_title": "Payment Method",
+          "payment_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam",
+          "footer_social_enable": true,
+          "social_title": "Connect with us",
+          "social_subheading": "Follow us on",
+          "footer_about_section": true,
+          "footer_right_bg": "#aa2b2b",
+          "footer_menu_1": "footer",
+          "footer_menu_1_title": "Footer menu 1",
+          "footer_menu_2": "footer",
+          "footer_menu_2_title": "Footer menu 2",
+          "footer_menu_3": "footer",
+          "footer_menu_3_title": "Footer menu 3",
+          "show_contact": true,
+          "footer_icon_bg": "#000000",
+          "footer_icon_text": "#ffffff",
+          "footer_menu_4_title": "Contact us",
+          "footer_address": "Address : No 40 Baria Sreet 133\/2 NewYork City, NY, United States.",
+          "footer_contact_no": "Phone 1 : 0123456789 <br> Phone 2 : 0123456789",
+          "footer_contact_id": "Email : support@lovefashion.com",
+          "footer_contact_link": "support@lovefashion.com",
+          "use_footer_bottom": true,
+          "copyright": "Copyright",
+          "copyright_border": "#000000",
+          "copyright_text_clr": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover_clr": "#000000",
+          "use_powered_by": true
+        }
+      },
+      "footer-model-6": {
+        "type": "footer-model-6",
+        "settings": {
+          "footer_bg": "#711b72",
+          "footer_text": "#ffffff",
+          "footer_logo_enable": true,
+          "footer_svg_logo": "<svg width=\"116\" height=\"68\" viewbox=\"0 0 116 68\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M0 60.1512C1.30603 60.451 2.45942 60.7606 3.63076 60.9755C5.96366 61.4019 8.22309 61.2622 10.3242 59.9903C11.2278 59.4388 11.9624 58.7183 12.6285 57.9055C14.7288 55.3567 16.3695 52.5139 18.0085 49.6636C21.9097 42.8876 25.8167 36.1143 29.7293 29.3437C29.7783 29.262 29.8183 29.1681 29.9334 28.9426C22.2474 28.8683 14.6553 28.9794 6.97665 28.9532C7.04277 28.3422 7.04359 27.7744 7.17174 27.2377C7.68272 25.0958 8.20759 22.953 8.77897 20.825C9.00916 19.9696 9.0712 19.9884 9.97644 19.9892C14.1688 19.9892 18.3603 19.9843 22.5527 19.9966C26.3892 20.008 30.2175 20.044 34.0498 20.0628C37.7274 20.0818 41.405 20.096 45.0825 20.1053H45.716C45.2899 20.8168 44.9168 21.4238 44.5577 22.0381C39.6568 30.4278 34.7562 38.8183 29.8559 47.2096C27.9229 50.5181 25.9873 53.8253 24.0489 57.1311C23.8906 57.4015 23.7134 57.6408 24.2432 57.6416C28.4347 57.6531 32.6255 57.6506 36.8137 57.6972C37.4839 57.7053 37.8006 57.488 38.0822 56.8884C41.8273 48.9344 45.5883 40.988 49.3655 33.0493C51.2625 29.0464 53.1563 25.0419 55.0467 21.0357C55.2157 20.6771 55.4132 20.5341 55.8214 20.5382C58.8688 20.5644 61.9143 20.5733 64.9579 20.5652C65.3178 20.5652 65.5113 20.6755 65.6631 21.003C67.873 25.7667 70.0892 30.5269 72.3116 35.2835C75.6551 42.462 78.9977 49.641 82.3395 56.8206C83.1188 58.4953 83.9008 60.1689 84.6855 61.8414C84.7622 62.0048 84.8601 62.1567 85.0071 62.4198C85.4381 61.6208 85.8233 60.9232 86.1923 60.2198C87.8248 57.1351 89.4459 54.0456 91.0899 50.9674C91.2662 50.6407 91.263 50.3956 91.0842 50.0737C85.8546 40.5926 80.6305 31.1077 75.4118 21.619C74.8674 20.6305 74.8845 20.6052 75.9832 20.6068C78.7381 20.6068 81.4922 20.6191 84.2471 20.6068C84.6463 20.6068 84.8659 20.7326 85.0422 21.088C88.4008 27.8602 91.7671 34.6289 95.1411 41.394C95.217 41.546 95.3574 41.6661 95.4676 41.8025C95.5722 41.6763 95.6668 41.5422 95.7508 41.4014C99.165 34.67 102.571 27.9362 105.968 21.1999C106.16 20.8201 106.376 20.6926 106.794 20.6967C109.668 20.722 112.542 20.7212 115.417 20.7302C115.569 20.7302 115.72 20.7433 116 20.7555C115.881 21.1011 115.816 21.409 115.673 21.6754C113.46 25.9032 111.241 30.128 109.016 34.3498C103.219 45.3901 97.4236 56.4299 91.6303 67.4691C91.4278 67.8555 91.2091 68.0042 90.7667 68.0001C86.9694 67.9584 83.1754 67.9429 79.3748 67.9184C79.1528 67.9184 78.9299 67.9184 78.7079 67.9184C77.1211 67.9454 77.557 68.2043 76.8607 66.738C75.7299 64.3591 74.6214 61.9696 73.5352 59.5695C73.3393 59.1407 73.1083 58.9626 72.6128 58.9642C67.7881 58.9751 62.9635 58.9694 58.1388 58.9471C54.717 58.9364 51.2952 58.9209 47.8734 58.8825C47.4097 58.8776 47.1746 59.0279 46.9755 59.4454C45.7715 61.9982 44.5218 64.529 43.33 67.0868C43.0721 67.6398 42.7896 67.8629 42.1513 67.8555C37.6349 67.8016 33.1177 67.7918 28.6012 67.7738C27.5581 67.7738 26.514 67.8114 25.4709 67.8049C21.947 67.7828 18.4232 67.7387 14.8994 67.7232C13.6203 67.7183 12.3338 67.8694 11.0629 67.782C6.54484 67.4724 3.08958 65.3598 0.738723 61.4713C0.495475 61.0694 0.277531 60.6495 0 60.1512ZM60.4284 30.5634H60.2586L51.0078 50.635H69.5208C66.4672 43.893 63.4478 37.2278 60.4284 30.5634Z\" fill=\"white\"><\/path>\n<path d=\"M30.7603 6.791L37.8487 0L44.6646 6.41032C44.0042 7.08346 43.3806 7.73045 42.7447 8.36601C41.196 9.9127 39.6451 11.4567 38.092 12.9979C37.8936 13.1956 37.754 13.3345 37.4692 13.0674C35.3273 11.0561 33.1691 9.06447 31.0206 7.06222C30.9439 6.99441 30.8794 6.91762 30.7603 6.791Z\" fill=\"white\"><\/path>\n<\/svg>",
+          "show_contact": true,
+          "footer_contact_title": "",
+          "footer_address": "",
+          "footer_contact_no": "+97 158 289 5402",
+          "footer_contact_id": "contact@zaybeauty.com",
+          "footer_contact_link": "info@lindashop.com",
+          "footer_social_enable": true,
+          "social_icon_clr": "#ffffff",
+          "social_icon_bg": "#711b72",
+          "social_icon_hover_clr": "#711b72",
+          "social_icon_hover_bg": "#ffffff",
+          "border_btm_clr": "#ffffff",
+          "footer_link": "#ffffff",
+          "color_footer_link_hover": "#cfc6c6",
+          "footer_menu_1_title": "",
+          "footer_menu_1": "",
+          "footer_menu_2_title": "Support",
+          "footer_menu_2": "footer",
+          "footer_menu_3_title": "Information",
+          "footer_menu_3": "information",
+          "use_footer_bottom": true,
+          "footer_bottom_bg": "#e4e4e4",
+          "footer_bottom_text": "#ffffff",
+          "footer_bottom_text_hover": "#cfc6c6",
+          "footer_menu_border": "#ffffff",
+          "footer_menu_4": "",
+          "copyright_bg": "#ffffff",
+          "copyright_text": "#232323",
+          "copyright_color": "#232323",
+          "copyright_link_color": "#cfc6c6",
+          "copyright": "Copyright",
+          "use_powered_by": true,
+          "footer_show_methods_of_payment": false
+        }
+      },
+      "footer-model-17": {
+        "type": "footer-model-17",
+        "settings": {
+          "bg_color": "#ff91af",
+          "news_frmtp_txt": "ORDER NOW",
+          "news_frm_1_txt": "#ffffff",
+          "news_frm_txt": "Choose your Ice Cream",
+          "news_frm_2_txt": "#ffffff",
+          "news_frmbt_txt": "Flat 20% Offer",
+          "news_frm_3_txt": "#ffffff",
+          "news_frmbt_1_txt": "",
+          "news_frm_4_txt": "#ffffff",
+          "enable_form": true,
+          "footer_logo_enable": true,
+          "input_text": "#000000",
+          "input_frm_bg": "#ffffff",
+          "copyright_bg": "#ffdea6",
+          "copyright_text": "#000000",
+          "copyright_color": "#000000",
+          "copyright_link_color": "#ff91af",
+          "copyright": "Copyright",
+          "use_powered_by": true,
+          "footer_show_methods_of_payment": true,
+          "use_footer_bottom": true,
+          "footer_bottom_text": "#e5758d",
+          "footer_bottom_text_hover": "#ffdea6",
+          "footer_menu_4": "main-menu"
+        }
+      },
+      "footer-model-18": {
+        "type": "footer-model-18",
+        "settings": {
+          "bg_color": "#e5758d",
+          "border_top_color": "#9c6969",
+          "footer_logo_enable": true,
+          "ftr_title": "Colorful Flower Shop",
+          "footer_text_clr": "#ffffff",
+          "ftr_adrs": "329 Queensberry Street, North Melbourne VIC 3051, Australia",
+          "footer_adrs_clr": "#ffffff",
+          "ftr_mbl_no": "123 456 7890",
+          "ftr_mbl_no_clr": "#ffffff",
+          "ftr_mail_txt": "support@laboom.com",
+          "ftr_mail_clr": "#ffffff",
+          "ftr_mail_link": "support@laboom.com",
+          "footer_social_enable": true,
+          "footer_social_link": "#000000",
+          "footer_social_link_hover": "#e5758d",
+          "footer_social_link_hover_bg": "#80a814",
+          "footer_menu": true,
+          "footer": "main-menu",
+          "footer_menu_clr": "#80a814",
+          "footer_menu_hover_clr": "#9a2a2a",
+          "footer_show_methods_of_payment": true,
+          "show_powered_by": true,
+          "copyright": "Copyright © 2018, flower-shop",
+          "copyright_bg": "#eff4f3",
+          "copyright_text": "#000000",
+          "copyright_link": "#000000",
+          "copyright_link_hover": "#ff144e"
+        }
+      },
+      "footer-model-21": {
+        "type": "footer-model-21",
+        "blocks": {
+          "1529471653339": {
+            "type": "text",
+            "settings": {
+              "class": "fa fa-truck",
+              "title": "Free Shipping & Returns",
+              "desc": "For all orders over $500"
+            }
+          },
+          "1529471713522": {
+            "type": "text",
+            "settings": {
+              "class": "fa fa-truck",
+              "title": "Money back guarantee",
+              "desc": "100% money back guarante"
+            }
+          },
+          "1529472248809": {
+            "type": "text",
+            "settings": {
+              "class": "fa fa-life-ring",
+              "title": "Support 24\/7",
+              "desc": "We answer for question all time"
+            }
+          }
+        },
+        "block_order": [
+          "1529471653339",
+          "1529471713522",
+          "1529472248809"
+        ],
+        "settings": {
+          "show_image_1": false,
+          "footer_bg": "#e4e4e4",
+          "footer_border_clr": "#1b1ba7",
+          "footer_text": "#e5758d",
+          "footer_title_border": "#de0000",
+          "footer_input_bg": "#f7f7f7",
+          "show_contact": true,
+          "footer_contact_title": "red",
+          "footer_address": "No: 58 A, East Madison Street,\nBaltimore, MD, USA 4508",
+          "footer_mail_id_top_text": "Do you have any question?",
+          "footer_mail_id": "support@somedomain.com",
+          "footer_phone_no": "800-140-100",
+          "footer_phone_no_top_text": "Mon - Fri: 8:00 - 17:00",
+          "footer_logo_enable": true,
+          "footer_contact_link": "support@somemail.com",
+          "footer_show_methods_of_payment": true,
+          "show_powered_by": true,
+          "copyright": "Copyright",
+          "copyright_bg": "#db0022",
+          "copyright_text": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover": "#de0000",
+          "footer_link": "#0fbba7",
+          "color_footer_link_hover": "#de0000",
+          "footer_menu_1_title": "Help",
+          "footer_menu_1": "footer",
+          "footer_menu_2_title": "Support",
+          "footer_menu_2": "footer",
+          "footer_menu_3_title": "Information",
+          "footer_menu_3": "footer",
+          "footer_social_enable": true,
+          "social_icon_bg_clr": "#c21515",
+          "social_icon_txt_clr": "#ffffff",
+          "social_icon_hovertxt_clr": "#ffffff",
+          "social_icon_hover_bgclr": "#0fbba7",
+          "class_color": "#1ad935",
+          "title_color": "#1069cf",
+          "desc_color": "#c85050"
+        }
+      },
+      "footer-model-22": {
+        "type": "footer-model-22",
+        "settings": {
+          "bg_color": "#fa4848",
+          "footer_logo_enable": true,
+          "use_footer_bottom": true,
+          "footer_bottom_text": "#ffffff",
+          "footer_bottom_text_hover": "#1069cf",
+          "footer_bottom_border_clr": "#ffffff",
+          "footer_menu_4": "main-menu",
+          "footer_social_enable": true,
+          "footer_social_link": "#cf8633",
+          "footer_social_link_hover": "#1fc350",
+          "footer_show_methods_of_payment": true,
+          "show_powered_by": true,
+          "copyright": "Copyright",
+          "copyright_text": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover": "#e5758d",
+          "copyright_sml_txt": "Made with love in Europe.",
+          "copyright_sml_txt_clr": "#ffffff"
+        }
+      },
+      "product-sidebar-deals": {
+        "type": "product-sidebar-deals",
+        "settings": {
+          "show_best_products": false,
+          "title": "Hot Deals",
+          "dealitems": "cosmetics",
+          "dealbtn": "#000000",
+          "dealbtn_text": "#ffffff",
+          "limit": "4"
+        }
+      },
+      "footer-model-9": {
+        "type": "footer-model-9",
+        "settings": {
+          "footer_bg_clr": "#ffffff",
+          "show_footer_overlay": true,
+          "overlay_bg_color": "#000000",
+          "footer_bg_img": true,
+          "footer_text": "#ffffff",
+          "footer_input_bg": "#000000",
+          "footer_menu_1_title": "Help",
+          "footer_menu_1": "footer",
+          "footer_menu_2_title": "Support",
+          "footer_menu_2": "",
+          "footer_menu_3_title": "Information",
+          "footer_menu_3": "",
+          "show_contact": true,
+          "footer_contact_title": "Contact us",
+          "footer_address": "No: 58 A, East Madison Street,\nBaltimore, MD, USA 4508",
+          "footer_contact_no": "+91 12345678",
+          "footer_contact_id": "support@somemail.com",
+          "footer_contact_link": "support@somemail.com",
+          "footer_link": "#aaaaaa",
+          "color_footer_link_hover": "#cca471",
+          "footer_icons_bg": "#030d1d",
+          "footer_social_enable": true,
+          "social_title": "Connect with us",
+          "footer_show_app_store": true,
+          "app_title": "Download our app",
+          "app_store_1_link": "",
+          "app_store_2_link": "",
+          "app_store_3_link": "",
+          "show_powered_by": true,
+          "copyright": "Copyright",
+          "copyright_bg": "#0e1d55",
+          "copyright_text": "#ffffff",
+          "copyright_link": "#ffffff",
+          "copyright_link_hover": "#cca471",
+          "footer_show_methods_of_payment": true,
+          "border_clr": "#212a38"
+        }
+      },
+      "product-sidebar-bestsellers": {
+        "type": "product-sidebar-bestsellers",
+        "settings": {
+          "show_best_products": false,
+          "title": "Best Sellers",
+          "bestseller": "body-care",
+          "limit": "4"
+        }
+      },
+      "header-model-9": {
+        "type": "header-model-9",
+        "settings": {
+          "display_top_bar": true,
+          "display_search": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "header_welcome_text": "Welcome to Mika Shop take away",
+          "header_help_text": "Call us: 0123-456-789:",
+          "top_bar_bg": "#413d3c",
+          "top_bar_text": "#ffffff",
+          "top_bar_links": "#ffffff",
+          "top_bar_link_hover": "#a7b3ab",
+          "link_login": "#413d3c",
+          "link_hover_clr": "#a7b3ab",
+          "login_icon_clr": "#ffffff",
+          "login_iconhover_clr": "#e4e4e4",
+          "login_iconhover_bg": "#ffffff",
+          "minicart_icon_bg": "#413d3c",
+          "login_sub_txt": "Get all option",
+          "logo_bar_bg": "#ffffff",
+          "logo_text": "#413d3c",
+          "logo_hover_text": "#a7b3ab",
+          "currency_icon": "#ffffff",
+          "currency_icon_hover": "#a7b3ab",
+          "currency_bg": "#ffffff",
+          "currency_link": "#413d3c",
+          "search_icon_bg": "#413d3c",
+          "search_icon": "#f28c8c",
+          "search_icon_hover": "#a7b3ab",
+          "search_hover_bg": "#ffffff",
+          "search_text": "#000000",
+          "Btn_text": "#ffffff",
+          "search_btn_hover": "#a7b3ab",
+          "search_btn_bg": "#e84e4e",
+          "search_btn_bghover": "#ffffff",
+          "border_between_bars": "#e4e4e4",
+          "miniiconcart_cart_bg": "#413d3c",
+          "miniiconcart_cart_icon": "#ffffff",
+          "miniiconcart_cart_hoverbg": "#ffffff",
+          "miniiconcart_carthover_icon": "#a7b3ab",
+          "minicart_count": "#413d3c",
+          "minicart_count_hover_text": "#a7b3ab",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#413d3c",
+          "minicart_link": "#413d3c",
+          "minicart_link_hover": "#a7b3ab",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000",
+          "menubar_bg": "#413d3c",
+          "clr_border_image": false,
+          "menubar_links": "#ffffff",
+          "menubar_links_hover": "#000000",
+          "menu_active": "#a7b3ab",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#413d3c",
+          "menubar_dropdown_caption_hover": "#a7b3ab",
+          "menubar_dropdown_links": "#413d3c",
+          "menubar_dropdown_links_hover": "#a7b3ab"
+        }
+      },
+      "sidebar-banner": {
+        "type": "sidebar-banner",
+        "settings": {
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "image_1": "",
+          "show_overlay_bg": false,
+          "news_bg_clr": "#fff",
+          "title": "Newsletter",
+          "news_desc": "Newsletter",
+          "title_color": "#000000",
+          "news_border_clr": "#fff",
+          "input_bg_color": "#fff",
+          "input_txt_color": "#000",
+          "text_color": "#000000",
+          "button": "Subscribe",
+          "btn_txt_color": "#fff",
+          "btn_bg_color": "#fff",
+          "btn_hover_bg_color": "#fff",
+          "btn_hover_color": "#fff"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": false,
+          "collections_sort_enable": true,
+          "collections_view_enable": true,
+          "collection_grid": "3",
+          "collection_results_per_page": "12",
+          "collection_infinite_scrolling": false
+        }
+      },
+      "navigation": {
+        "type": "navigation",
+        "settings": {
+          "display_megamenu": false,
+          "pick_menu": "main-menu"
+        }
+      },
+      "top-bar-type-1": {
+        "type": "top-bar-type-1",
+        "settings": {
+          "display_top_bar": true,
+          "header_phone_label": "TOLL FREE",
+          "header_phone_value": "(00) 000 111 222",
+          "display_phone_mob": false,
+          "header_mail_label": "MAIL INFO",
+          "display_mail_mob": false,
+          "header_mail_value": "info@somedomain.com",
+          "top_bar_menu": "",
+          "top_bar_bg": "#413d3c",
+          "top_bar_text": "#ffffff",
+          "top_bar_links": "#ffffff",
+          "top_bar_link_hover": "#a7b3ab",
+          "top_bar_border": "#ffffff",
+          "display_wishlist": true
+        }
+      },
+      "top-bar-type-4": {
+        "type": "top-bar-type-4",
+        "settings": {
+          "display_top_bar": true,
+          "display_top_adv_bar_mobile": false,
+          "header_text_1": "FREE SHIPPING & RETURN",
+          "header_text_2": "MONEY BACK GUARANTEE",
+          "header_text_3": "ONLINE SUPPORT 24\/7",
+          "header_phone_label": "Call Us",
+          "header_phone_value": "(00) 000 111 222",
+          "header_mail_label": "Mail",
+          "header_mail_value": "info@somedomain.com",
+          "stripe_icon": "#ffffff",
+          "stripe_icon_hover": "#a7b3ab",
+          "stripe_bg": "#413d3c",
+          "stripe_text": "#ffffff",
+          "stripe_link": "#ffffff",
+          "stripe_link_hover": "#a7b3ab",
+          "stripe_border_between_bars": "#e4e4e4",
+          "display_top_bar_icon": true,
+          "top_bar_menu": "main-menu",
+          "display_wishlist": true,
+          "top_bar_bg": "#ffffff",
+          "top_bar_links": "#413d3c",
+          "top_bar_link_hover": "#a7b3ab",
+          "top_border_between_bars": "#e4e4e4"
+        }
+      },
+      "navigation-2": {
+        "type": "navigation-2",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "logo_text": "#000",
+          "logo_hover_text": "#000",
+          "border_between_bars": "#e4e4e4",
+          "search_bg": "#fff",
+          "search_icon": "#000",
+          "search_icon_hover": "#35b8f4",
+          "search_text": "#000",
+          "search_link": "#000",
+          "search_link_hover": "#000",
+          "dropdown_icon": "#000",
+          "dropdown_icon_hover": "#35b8f4",
+          "dropdown_bg": "#fff",
+          "dropdown_link": "#000",
+          "dropdown_hover_link": "#35b8f4",
+          "minicart_icon": "#000",
+          "minicart_icon_hover": "#35b8f4",
+          "minicart_count": "#000",
+          "minicart_count_bg": "#000",
+          "minicart_count_hover_bg": "#000",
+          "minicart_count_hover_text": "#000",
+          "minicart_bg": "#fff",
+          "minicart_text": "#000",
+          "minicart_link": "#000",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000",
+          "minicart_btn_hover_bg": "#000",
+          "minicart_btn_text": "#000",
+          "minicart_btn_hover_text": "#000",
+          "minicart_total": "#000",
+          "menubar_bg": "#fff",
+          "menubar_links": "#000",
+          "menubar_links_hover": "#000",
+          "menu_active": "#35b8f4",
+          "menubar_dropdown_bg": "#fff",
+          "menubar_dropdown_caption": "#000",
+          "menubar_dropdown_caption_hover": "#35b8f4",
+          "menubar_dropdown_links": "#000",
+          "menubar_dropdown_links_hover": "#35b8f4",
+          "display_megamenu": true
+        }
+      },
+      "blog-sidebar-article": {
+        "type": "blog-sidebar-article",
+        "settings": {
+          "show_recent_articles": true,
+          "show_recent_articles_img": true,
+          "blog_article_limit": "3"
+        }
+      },
+      "blog-sidebar-tags": {
+        "type": "blog-sidebar-tags",
+        "settings": {
+          "show_blog_tags": true
+        }
+      },
+      "blog-sidebar-instagram": {
+        "type": "blog-sidebar-instagram",
+        "settings": {
+          "instagram_use": true,
+          "sidebar_bg_color": "#000",
+          "accessToken": "5505566489.1677ed0.189582a99f7d4ddd9135203f09776949",
+          "heading_image_need": false,
+          "heading_image": "",
+          "title": "Instagram Feed",
+          "title_1_clr": "#231f1e",
+          "sort": "none"
+        }
+      },
+      "blog-sidebar-deals": {
+        "type": "blog-sidebar-deals",
+        "settings": {
+          "show_best_products": true,
+          "sidebar_bg_color": "rgba(0,0,0,0)",
+          "title": "Hot Deals",
+          "dealitems": "",
+          "dealbtn_border": "#000",
+          "dealbtn": "#000000",
+          "dealbtn_text": "#000",
+          "limit": "4"
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "blog_results_per_page": "9",
+          "blog_grid": "3",
+          "show_blog_4_content": true,
+          "show_blog_4_img": true,
+          "show_blog_4_author": false,
+          "show_blog_4_btn": false,
+          "show_blog_4_date": true,
+          "show_blog_4_tag": false,
+          "comments_tag": false,
+          "blog_bg": "rgba(0,0,0,0)",
+          "blog_design_4_title": "#0c0c0c",
+          "blog_design_4_titlehover": "#ee2d7a",
+          "blog_design_4_datecolor": "#ee2d7a",
+          "blog_design_4_authorcolor": "#777777",
+          "blog_design_commentcolor": "#777777",
+          "blog_design_4_tag": "#777777",
+          "blog_design_4_taghover": "#231f1e",
+          "blog_design_4_desc": "#848484",
+          "button_txt_color": "#777777",
+          "hover_button_txt_color": "#231f1e"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "1540372711989": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-money-check",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#711b72",
+              "title": "Special offer 1 + 1 = 3",
+              "title_color": "#000000",
+              "sub_title": "Get a gift",
+              "sub_title_color": "#000000",
+              "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+              "desc_color": "#000000",
+              "link": "collections\/all"
+            }
+          },
+          "1540372716313": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-gift",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#711b72",
+              "title": "Free reward card",
+              "title_color": "#000000",
+              "sub_title": "Worth $10, $50, $100",
+              "sub_title_color": "#000000",
+              "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+              "desc_color": "#000000",
+              "link": ""
+            }
+          },
+          "1540372724609": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-truck",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#711b72",
+              "title": "Free shipping",
+              "title_color": "#000000",
+              "sub_title": "On orders over $100",
+              "sub_title_color": "#000000",
+              "desc": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.",
+              "desc_color": "#000000",
+              "link": "\/collections\/all"
+            }
+          },
+          "1540379760524": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-undo",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#711b72",
+              "title": "Order return",
+              "title_color": "#000000",
+              "sub_title": "Returns within 5 days",
+              "sub_title_color": "#000000",
+              "desc": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.",
+              "desc_color": "#000000",
+              "link": "\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "1540372711989",
+          "1540372716313",
+          "1540372724609",
+          "1540379760524"
+        ],
+        "settings": {
+          "display_product_thumb_img": true,
+          "display_product_sku": true,
+          "display_product_type": false,
+          "display_vendor_type": false,
+          "color_tooltip": false,
+          "product_quantity_enable": true,
+          "enable_size_chart": false,
+          "enable_wishlist": true,
+          "enable_cart": true,
+          "color_cart": "rgba(0,0,0,0)",
+          "color_button_cart_text": "#711b72",
+          "cart_hover_btn": "#711b72",
+          "cart_hover_btn_text": "#ffffff",
+          "use_cart_width": false,
+          "cart_size": "13px  56px",
+          "cart_font_size": "14",
+          "small_cart_size": "14px 28px",
+          "small_cart_font_size": "14",
+          "payment_button": true,
+          "short_desc": false,
+          "social_sharing_products": false,
+          "secure_pay_enable": false,
+          "display_back_in_stock": true,
+          "text": "Thanks! We will notify you when this product becomes available!",
+          "text1": "Click Here",
+          "text2": "to be notified by email when",
+          "text3": "becomes available",
+          "error": "Please provide a valid email address.",
+          "product_tab1": true,
+          "product_tab1_heading": "Product Description",
+          "product_tab2": false,
+          "product_tab2_heading": "Reviews",
+          "product_tab3": true,
+          "product_tab3_heading": "Rating & Reviews",
+          "product_tab3_page": "",
+          "product_tab4_heading": "Specification Details",
+          "product_related_enable": true,
+          "related_prds_heading": "Related Products",
+          "heading_image_need": false,
+          "related_prds_title": "From this Collection",
+          "display_recently_viewed_products": false,
+          "recently_viewed_products_title": "Recently Viewed Products",
+          "number_of_recently_viewed_products": "4",
+          "custom_text_block": true
+        }
+      },
+      "top-bar-type-5": {
+        "type": "top-bar-type-5",
+        "settings": {
+          "display_top_bar": true,
+          "display_top_adv_bar_mobile": false,
+          "top_bar_bg": "#413d3c",
+          "top_bar_text": "#ffffff",
+          "top_bar_links": "#ffffff",
+          "top_bar_link_hover": "#a7b3ab",
+          "top_border_between_bars": "#e4e4e4",
+          "header_phone_value": "(00) 000 111 222",
+          "header_mail_value": "info@somedomain.com",
+          "store_location": "Store Location",
+          "store_location_link": "",
+          "track_your_order": "Track Your Order",
+          "track_your_order_link": ""
+        }
+      },
+      "header-model-14": {
+        "type": "header-model-14",
+        "settings": {
+          "display_search": true,
+          "display_wishlist": true,
+          "border_between_bars": "#e4e4e4",
+          "logo_text": "#000000",
+          "logo_hover_text": "#000000",
+          "search_icon": "#000000",
+          "search_icon_hover": "#711b72",
+          "search_bg": "#eeeeee",
+          "search_text": "#000000",
+          "display_minicart": true,
+          "minicart_icon": "#000000",
+          "minicart_icon_hover": "#711b72",
+          "minicart_count": "#ffffff",
+          "minicart_count_bg": "#711b72",
+          "minicart_count_hover_bg": "#711b72",
+          "minicart_count_hover_text": "#ffffff",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#000000",
+          "minicart_link": "#000000",
+          "minicart_link_hover": "#711b72",
+          "minicart_btn_bg": "rgba(0,0,0,0)",
+          "minicart_btn_hover_bg": "#711b72",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#ffffff",
+          "minicart_total": "#000000",
+          "menubar_bg": "#ffffff",
+          "menubar_links": "#000000",
+          "menubar_links_hover": "#711b72",
+          "menu_active": "#711b72",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#711b72",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#711b72"
+        }
+      },
+      "top-bar-type-14": {
+        "type": "top-bar-type-14",
+        "settings": {
+          "display_top_bar": false,
+          "top_border_between_bars": "#e4e4e4",
+          "top_bar_menu": "main-menu",
+          "top_bar_bg": "#faecef",
+          "top_bar_links": "#000000",
+          "top_bar_link_hover": "#35b8f4",
+          "currency_icon": "#000000",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000",
+          "display_minicart": true,
+          "minicart_icon": "#000000",
+          "minicart_icon_hover": "#35b8f4",
+          "minicart_count": "#ffffff",
+          "minicart_count_bg": "#000000",
+          "minicart_count_hover_bg": "#000000",
+          "minicart_count_hover_text": "#000000",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#000000",
+          "minicart_link": "#000000",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000"
+        }
+      },
+      "header-model-15": {
+        "type": "header-model-15",
+        "settings": {
+          "header_phone_value": "(00) 000 111 222",
+          "header_mail_value": "info@somedomain.com",
+          "store_location": "Store Location",
+          "store_location_link": "",
+          "track_your_order": "Track Your Order",
+          "track_your_order_link": "",
+          "login_txt_clr": "#ffffff",
+          "login_hovertxt_clr": "#ffffff",
+          "border_between_bars": "#e4e4e4",
+          "currency_icon": "#030d1d",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000",
+          "top_bar_text": "#000000",
+          "top_bar_links": "#000000",
+          "top_bar_link_hover": "#35b8f4",
+          "logo_bar_bg": "#923232",
+          "logo_text": "#a64747",
+          "logo_hover_text": "#000000",
+          "dropdown_icon": "#000000",
+          "dropdown_icon_hover": "#35b8f4",
+          "dropdown_bg": "#ffffff",
+          "dropdown_link": "#000000",
+          "dropdown_hover_link": "#35b8f4",
+          "search_icon": "#000000",
+          "search_icon_hover": "#35b8f4",
+          "search_bg": "#ffffff",
+          "search_text": "#000000",
+          "Btn_text": "#000000",
+          "search_btn_hover": "#000000",
+          "search_btn_bg": "#000000",
+          "search_btn_bghover": "#000000",
+          "minicart_count": "#000000",
+          "minicart_icon_hover": "#35b8f4",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#000000",
+          "minicart_link": "#000000",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000",
+          "menubar_bg": "#ffffff",
+          "menubar_links": "#000000",
+          "menubar_links_hover": "#000000",
+          "menu_active": "#35b8f4",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#35b8f4",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#35b8f4"
+        }
+      },
+      "navigation-etc": {
+        "type": "navigation-etc",
+        "settings": {
+          "display_megamenu": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "display_search": true
+        }
+      },
+      "top-bar-type-16": {
+        "type": "top-bar-type-16",
+        "settings": {
+          "display_minicart": true,
+          "minicart_icon": "#b97171",
+          "minicart_icon_hover": "#69a2bd",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#bb3d3d",
+          "minicart_link": "#f26d6d",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000",
+          "display_top_bar": true,
+          "header_phone_label": "fas fa-phone",
+          "header_phone_value": "(00) 000 111 222",
+          "header_mail_label": "fas fa-envelope",
+          "header_mail_value": "info@somedomain.com",
+          "top_bar_bg": "#e4e4e4",
+          "top_bar_text": "#000000",
+          "top_bar_links": "#000000",
+          "top_bar_link_hover": "#35b8f4",
+          "display_wishlist": true
+        }
+      },
+      "header-model-16": {
+        "type": "header-model-16",
+        "settings": {
+          "display_search": true,
+          "logo_bar_bg": "#dc9696",
+          "logo_text": "#000000",
+          "logo_hover_text": "#000000",
+          "border_between_bars": "#e4e4e4",
+          "currency_icon": "#78aceb",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000",
+          "search_bg": "#ffffff",
+          "search_icon": "#000000",
+          "search_icon_hover": "#35b8f4",
+          "search_btn_bg": "#35b8f4",
+          "search_btn_text": "#ffffff",
+          "search_btn_text_hvr": "#ffffff",
+          "search_bg_hover": "#3ba5d6",
+          "search_text": "#000000",
+          "menubar_bg": "#ffffff",
+          "menubar_border_top": "#ebebeb",
+          "menubar_boxshadow_clr": "#fcc6e6",
+          "menubar_links": "#000000",
+          "menubar_links_hover": "#000000",
+          "menu_active": "#35b8f4",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#35b8f4",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#35b8f4",
+          "menu_1_clr": "#f27b81",
+          "menu_2_clr": "#f7c44e",
+          "menu_3_clr": "#aec158",
+          "menu_4_clr": "#fce480",
+          "menu_5_clr": "#4cbcd4",
+          "menu_6_clr": "#fcc6e6",
+          "menu_7_clr": "#f27b81",
+          "menu_8_clr": "#35b8f4",
+          "menu_9_clr": "#35b8f4",
+          "menu_10_clr": "#35b8f4"
+        }
+      },
+      "social-links-menu": {
+        "type": "social-links-menu",
+        "settings": {
+          "social_icon_border_clr": "#34b3d3",
+          "social_icon_clr": "#35b8f4",
+          "social_hovericon_clr": "#ffffff",
+          "social_1_iconclr": "#34b3d3",
+          "social_2_iconclr": "#35538f",
+          "social_3_iconclr": "#35b8f4",
+          "social_4_iconclr": "#d53e2b",
+          "social_5_iconclr": "#35b8f4",
+          "social_6_iconclr": "#314359",
+          "social_7_iconclr": "#35b8f4",
+          "social_8_iconclr": "#35b8f4",
+          "social_9_iconclr": "#35b8f4"
+        }
+      },
+      "top-bar-type-10": {
+        "type": "top-bar-type-10",
+        "settings": {
+          "show_topbar_overlay": true,
+          "overlay_bg_clr": "#fff",
+          "display_top_adv_bar": true,
+          "display_top_adv_bar_mobile": false,
+          "display_top_bar": true,
+          "notification_bar_bg": "#cbba9c",
+          "notification_bar_bg_img": "",
+          "stripe_icon": "#000000",
+          "stripe_icon_color": "#ffffff",
+          "stripe_icon_hover": "#ffe491",
+          "stripe_icon_hover_color": "#000000",
+          "notification_discount": "50% OFF",
+          "notification_discount_clr": "#fff",
+          "notification_discount_txt": "Discount",
+          "notification_discount_text_clr": "#fff",
+          "notification_text": "Long Weekend Sale Up to 50% OFF",
+          "notification_text_clr": "#fff",
+          "notification_promo_txt": "Enter Prmotion Code",
+          "notification_promo_txt_clr": "#000",
+          "notification_promo_code": "Sale2017",
+          "notification_promo_code_clr": "#000",
+          "notification_linktxt": "Shop Now",
+          "top_bar_btn_bg": "#ffffff",
+          "top_bar_btn_txt": "#cbba9c",
+          "top_bar_btn_hoverbg": "#cbba9c",
+          "top_bar_btn_hovertxt": "#fff",
+          "header_notification_link": "\/collections\/all",
+          "top_bar_bg": "#fff",
+          "top_bar_text": "#000",
+          "top_bar_links": "#000",
+          "top_bar_link_hover": "#35b8f4",
+          "header_phone_value": "(00) 000 111 222",
+          "display_phone_mob": true,
+          "header_mail_value": "info@somedomain.com",
+          "display_mail_mob": true,
+          "store_location": "Store Location",
+          "store_location_link": "",
+          "track_your_order": "Track Your Order",
+          "track_your_order_link": "",
+          "currency_icon": "#000000",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#fff",
+          "currency_link": "#000"
+        }
+      },
+      "top-bar-type-2": {
+        "type": "top-bar-type-2",
+        "settings": {
+          "display_top_adv_bar": true,
+          "notification_bar_bg": "#000000",
+          "stripe_icon": "#ffffff",
+          "stripe_icon_hover": "#ffe491",
+          "notification_text": "Long Weekend Sale Up to 50% OFF",
+          "notification_text_clr": "#ffffff",
+          "notification_linktxt": "Shop Now",
+          "notification_linktxt_color": "#ffffff",
+          "notification_hover_linktxt_color": "#cbba9c",
+          "header_notification_link": "\/collections\/all"
+        }
+      },
+      "order-form": {
+        "type": "order-form",
+        "settings": {
+          "collection": ""
+        }
+      },
+      "GDPR-modal": {
+        "type": "GDPR-modal",
+        "settings": {
+          "display_gdpr": true,
+          "show_gdp": "right",
+          "bg_color": "#141414",
+          "text_color": "#ffffff",
+          "privacy_policy_color": "#818181",
+          "content": "The cookie settings on this website are set to 'allow all cookies' to give you the very best experience. Please click Accept Cookies to continue to use the site.",
+          "privacy_policy_text": "privacy policy",
+          "privacy_policy_link": "https:\/\/policies.google.com\/",
+          "accept_cookies_text": "accept"
+        }
+      },
+      "someone-purchased": {
+        "type": "someone-purchased",
+        "blocks": {
+          "1555932188446": {
+            "type": "image",
+            "settings": {
+              "product": "",
+              "from_ago": "from Blackburn, UK",
+              "time_ago": "20 minutes ago"
+            }
+          },
+          "1555932203743": {
+            "type": "image",
+            "settings": {
+              "product": "",
+              "from_ago": "from New York, US",
+              "time_ago": "12 minutes ago"
+            }
+          }
+        },
+        "block_order": [
+          "1555932188446",
+          "1555932203743"
+        ],
+        "settings": {
+          "display_someone-purchased": false,
+          "display_someone-purchased_mb": false,
+          "show_someone-purchased": "right",
+          "someone_speed": "7000",
+          "text": "Someone recently bought a"
+        }
+      },
+      "custom-text-type-1": {
+        "type": "custom-text-type-1",
+        "blocks": {
+          "1556789388740": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-gift",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#ee2d7a",
+              "title": "Special Offer 1 + 1 = 3",
+              "title_color": "#231f1e",
+              "sub_title": "",
+              "sub_title_color": "#231f1e",
+              "desc": "Lorem ipsum dolor sit amet, consectetur",
+              "desc_color": "#777777",
+              "link": ""
+            }
+          },
+          "1556948779285": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-money-check",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#ee2d7a",
+              "title": "Free Reward Card",
+              "title_color": "#231f1e",
+              "sub_title": "",
+              "sub_title_color": "#000000",
+              "desc": "Ut enim ad minim veniam, quis nostrud",
+              "desc_color": "#777777",
+              "link": ""
+            }
+          },
+          "1556948850308": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-truck",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#ee2d7a",
+              "title": "Free Shipping",
+              "title_color": "#231f1e",
+              "sub_title": "",
+              "sub_title_color": "#231f1e",
+              "desc": "Fugiat nulla pariatur. Excepteur sint",
+              "desc_color": "#777777",
+              "link": ""
+            }
+          },
+          "1556948876844": {
+            "type": "text",
+            "settings": {
+              "class": "fas fa-undo",
+              "class_color": "#ffffff",
+              "icon_bg_color": "#ee2d7a",
+              "title": "Order Return",
+              "title_color": "#231f1e",
+              "sub_title": "",
+              "sub_title_color": "#000000",
+              "desc": "nisi ut aliquip ex ea commodo consequat.",
+              "desc_color": "#777777",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1556789388740",
+          "1556948779285",
+          "1556948850308",
+          "1556948876844"
+        ],
+        "settings": {
+          "bg_color": "#ffffff"
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "show_blog_4_author": true,
+          "show_blog_4_date": true,
+          "show_blog_4_tag": true,
+          "blog_design_4_title": "#0c0c0c",
+          "blog_design_4_titlehover": "#ee2d7a",
+          "blog_design_4_datecolor": "#ee2d7a",
+          "blog_design_4_authorcolor": "#777777",
+          "blog_design_commentcolor": "#777777",
+          "blog_design_4_tag": "#777777",
+          "blog_design_4_taghover": "#231f1e"
+        }
+      },
+      "top-bar-type-11": {
+        "type": "top-bar-type-11",
+        "settings": {
+          "show_topbar_overlay": true,
+          "overlay_bg_clr": "#ffffff",
+          "display_top_adv_bar": true,
+          "display_top_adv_bar_mobile": true,
+          "display_top_bar": true,
+          "notification_bar_bg": "#ae5858",
+          "stripe_icon": "#ffffff",
+          "stripe_icon_color": "#000000",
+          "stripe_icon_hover": "#ffe491",
+          "stripe_icon_hover_color": "#ffffff",
+          "notification_discount": "50% OFF",
+          "notification_discount_clr": "#ffffff",
+          "notification_discount_txt": "Discount",
+          "notification_discount_text_clr": "#ffffff",
+          "notification_text": "Long Weekend Sale Up to 50% OFF",
+          "notification_text_clr": "#ffffff",
+          "notification_promo_txt": "Enter Prmotion Code",
+          "notification_promo_txt_clr": "#ffffff",
+          "notification_promo_code": "Sale2017",
+          "notification_promo_code_clr": "#ffffff",
+          "notification_linktxt": "Shop Now",
+          "top_bar_btn_bg": "#ffffff",
+          "top_bar_btn_txt": "#ae5858",
+          "top_bar_btn_hoverbg": "#e5758d",
+          "top_bar_btn_hovertxt": "#ffffff",
+          "header_notification_link": "\/collections\/all",
+          "top_bar_bg": "#e4e4e4",
+          "top_bar_text": "#db0022",
+          "top_bar_links": "#db0022",
+          "top_bar_link_hover": "#e5758d",
+          "header_phone_value": "(00) 000 111 222",
+          "display_phone_mob": false,
+          "header_mail_value": "info@somedomain.com",
+          "display_mail_mob": false,
+          "store_location": "Store Location",
+          "store_location_link": "",
+          "track_your_order": "Track Your Order",
+          "track_your_order_link": "",
+          "currency_icon": "#e5758d",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "show_contact_1_page": true,
+          "show_contact_1_iconwrapper": true,
+          "show_contact_1_address": true,
+          "contact_add_heading": "Address",
+          "contact_add_detail": "62,74th Avenue-galendale NY 11385 , US",
+          "show_contact_1_email": true,
+          "contact_mail_heading": "Email",
+          "contact_mail_detail": "email:contact@domain.com",
+          "show_contact_1_phone": true,
+          "contact_phone_heading": "Phone",
+          "contact_phone_detail": "call:+1800-567-879",
+          "show_contact_1_time": true,
+          "contact_time_heading": "Timing",
+          "contact_time_detail": "available at 10am-8pm",
+          "enable_gmap": false,
+          "contact_iframe_code": "<iframe style=\"border:0;scrolling=\" no=\"\" src=\"https:\/\/maps.google.co.in\/?ie=UTF8&t=m&ll=-37.823006,144.977388&spn=0.02034,0.042915&z=14&output=embed\" width=\"960\" height=\"578\"><\/iframe>",
+          "contact_1_linkcolor": "#232323",
+          "contact_1_linkhovercolor": "#9d2970",
+          "contact_1_iconbg": "rgba(0,0,0,0)",
+          "contact_1_iconcolor": "#0c0c0c",
+          "contact_1_iconhoverbg": "#9d2970",
+          "contact_1_icon_hvr": "#ffffff",
+          "contact_1_iconheadingcolor": "#9d2970",
+          "contact_1_icondetailcolor": "#151413",
+          "show_contact_1_contactform": true,
+          "contact_form_heading": "SEND US A MESSAGE",
+          "contact_1_formheadingcolor": "#0c0c0c",
+          "contact_1_formheadingbordercolor": "#9d2970",
+          "contact_1_formbgcolor": "#ffffff",
+          "contact_1_formborder": "#f7f7f7",
+          "contact_1_formbtnbg": "rgba(0,0,0,0)",
+          "contact_1_formbtncolor": "#0c0c0c",
+          "contact_1_formbtnhoverbg": "#9d2970",
+          "contact_1_formbtnhovercolor": "#ffffff",
+          "show_contact_1_socialicon": true,
+          "contact_1_socialiconcolor": "#0c0c0c",
+          "contact_1_socialiconhoverbg": "#9d2970",
+          "contact_1_socialiconhovercolor": "#ffffff",
+          "show_contact_1_facebook": true,
+          "contact_1_icon": "fab fa-facebook",
+          "contact_1_facebook": "",
+          "show_contact_1_twitter": true,
+          "contact_2_icon": "fab fa-twitter",
+          "contact_1_twitter": "",
+          "show_contact_1_googleplus": true,
+          "contact_3_icon": "fab fa-google-plus",
+          "contact_1_googleplus": "",
+          "show_contact_1_youtube": true,
+          "contact_4_icon": "fab fa-youtube",
+          "contact_1_youtube": "",
+          "contact_5_icon": "fab fa-pinterest",
+          "show_contact_1_pinterest": true,
+          "contact_1_pinterest": ""
+        }
+      },
+      "header-model-11": {
+        "type": "header-model-11",
+        "settings": {
+          "display_search": true,
+          "display_all_category": true,
+          "all_categories": "main-menu",
+          "categories_bg": "#ffffff",
+          "categories_text": "#000000",
+          "display_minicart": false,
+          "display_wishlist": false,
+          "logo_bar_bg": "#aaaaaa",
+          "logo_text": "#000000",
+          "logo_hover_text": "#000000",
+          "search_bg": "#ffffff",
+          "search_btn_bg": "#35b8f4",
+          "search_btn_text": "#ffffff",
+          "search_btn_text_hvr": "#35b8f4",
+          "search_bg_hover": "#35b8f4",
+          "search_text": "#000000",
+          "count_bg": "#fad400",
+          "minicart_icon": "#000000",
+          "count_hover_bg": "#000000",
+          "minicart_icon_hover": "#ffffff",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#000000",
+          "minicart_link": "#000000",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000",
+          "menubar_bg": "#ffffff",
+          "menubar_links": "#000000",
+          "menubar_links_hover": "#000000",
+          "menu_active": "#35b8f4",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#35b8f4",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#35b8f4"
+        }
+      },
+      "1558066628478": {
+        "type": "slideshow",
+        "blocks": {
+          "e4d68c08-8e66-40bc-8426-5e559ecbe8de": {
+            "type": "style_2",
+            "disabled": true,
+            "settings": {
+              "mobile_bg_clr": "rgba(0,0,0,0)",
+              "title": "BRING ON THE GLOW",
+              "heading_color": "#ffffff",
+              "heading_size": "40",
+              "title_2": "Introducing<br>\ndrama glow<br>\nhighlighter palette",
+              "subheading_color": "#ffffff",
+              "subheading_size": "30",
+              "desc": "5 Beautiful Shades",
+              "desc_color": "#ffffff",
+              "desc_size": "20",
+              "button": "Shop Now",
+              "link": "#",
+              "btn_bg_color": "#ffffff",
+              "btn_txt_color": "#872360",
+              "btn_hoverbg_color": "#872360",
+              "btn_hovertxt_color": "#ffffff"
+            }
+          },
+          "bc753c15-5098-42c4-ad06-c30651bc3567": {
+            "type": "style_1",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop-banner-2.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile-image.jpg",
+              "mobile_bg_clr": "rgba(0,0,0,0)",
+              "title": "BLOOM BLUSHES",
+              "heading_color": "#000000",
+              "heading_size": "40",
+              "animation": "lottie",
+              "title_2": "Get the most stunning color on your cheeks<br> with our soft and creamy blushes",
+              "subheading_color": "#000000",
+              "subheading_size": "27",
+              "desc": "Available in 3 Shades",
+              "desc_color": "#777777",
+              "desc_size": "20",
+              "button": "Shop Now",
+              "link": "#",
+              "btn_bg_color": "#000000",
+              "btn_txt_color": "#ffffff",
+              "btn_hoverbg_color": "#711b72",
+              "btn_hovertxt_color": "#ffffff"
+            }
+          },
+          "e1d7aaad-195b-4f74-9417-95f16c7462f2": {
+            "type": "style_1",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop-banner-1.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Slider-2-mobile.jpg",
+              "mobile_bg_clr": "rgba(0,0,0,0)",
+              "title": "BRING ON THE GLOW",
+              "heading_color": "#000000",
+              "heading_size": "40",
+              "animation": "lottie",
+              "title_2": "Introducing<br>\ndrama glow highlighter palette",
+              "subheading_color": "#000000",
+              "subheading_size": "27",
+              "desc": "5 Beautiful Shades",
+              "desc_color": "#777777",
+              "desc_size": "20",
+              "button": "Shop Now",
+              "link": "#",
+              "btn_bg_color": "#000000",
+              "btn_txt_color": "#ffffff",
+              "btn_hoverbg_color": "#711b72",
+              "btn_hovertxt_color": "#ffffff"
+            }
+          },
+          "80a9a16e-5531-4d84-95e8-0ebe6fbb1b24": {
+            "type": "style_1",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lip_pashminas_900.png",
+              "mobile_image": "shopify:\/\/shop_images\/Lips_Pashmina_mobile.png",
+              "mobile_bg_clr": "rgba(0,0,0,0)",
+              "title": "LIP PASHMINAS",
+              "heading_color": "#030d1d",
+              "heading_size": "40",
+              "animation": "",
+              "title_2": "The most comfortable lipsticks",
+              "subheading_color": "#030d1d",
+              "subheading_size": "30",
+              "desc": "Available in two beautiful sets and 8 shades.",
+              "desc_color": "#030d1d",
+              "desc_size": "20",
+              "button": "Shop Now",
+              "link": "#",
+              "btn_bg_color": "#000000",
+              "btn_txt_color": "#ffffff",
+              "btn_hoverbg_color": "#872360",
+              "btn_hovertxt_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "e4d68c08-8e66-40bc-8426-5e559ecbe8de",
+          "bc753c15-5098-42c4-ad06-c30651bc3567",
+          "e1d7aaad-195b-4f74-9417-95f16c7462f2",
+          "80a9a16e-5531-4d84-95e8-0ebe6fbb1b24"
+        ],
+        "settings": {
+          "slideshow_speed": "10000",
+          "slideshow_transition": "false",
+          "slideshow_play": "true",
+          "navigation_color": "#aaaaaa",
+          "navigation_hover_color": "#711b72"
+        }
+      },
+      "1558676744308": {
+        "type": "newsletter",
+        "settings": {
+          "show_overlay_bg": true,
+          "news_bg_clr": "#ffffff",
+          "title": "Newsletter Signup",
+          "news_desc": "Receive our latest updates about our products and promotions.",
+          "title_color": "#000000",
+          "news_border_clr": "#eeeeee",
+          "input_bg_color": "#ffffff",
+          "input_txt_color": "#777777",
+          "text_color": "#848484",
+          "button": "Subscribe",
+          "btn_txt_color": "#ffffff",
+          "btn_bg_color": "#711b72",
+          "btn_hover_bg_color": "#501851",
+          "btn_hover_color": "#ffffff"
+        }
+      },
+      "gallery": {
+        "type": "gallery",
+        "blocks": {
+          "1566567239616": {
+            "type": "Image",
+            "settings": {
+              "title": "",
+              "gallery_title": "Celebrity Trend",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567322985": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Comfortable outfit",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567461654": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Seasonal style",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567568116": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Festive Ready",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567638412": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Fashion Frenzy",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567853096": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Denim Days",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567906061": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Stepping Up To Fashion",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567710571": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Life style week",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567923273": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Valentino Fashion",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567104177": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Iconic Fashion",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567685885": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Style your Day",
+              "category": "",
+              "gallery_link": ""
+            }
+          },
+          "1566567874854": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "gallery_title": "Work Look",
+              "category": "",
+              "gallery_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1566567239616",
+          "1566567322985",
+          "1566567461654",
+          "1566567568116",
+          "1566567638412",
+          "1566567853096",
+          "1566567906061",
+          "1566567710571",
+          "1566567923273",
+          "1566567104177",
+          "1566567685885",
+          "1566567874854"
+        ],
+        "settings": {
+          "portfolio_title": "Best Sellers",
+          "portfolio_title_clr": "#030d1d",
+          "portfolio_text": "",
+          "portfolio_text_clr": "#030d1d",
+          "use_overlay": true,
+          "img_overlay": "#231f1e",
+          "img_overlay_title": "#ffffff",
+          "img_overlay_catgry": "#030d1d",
+          "use_overlay_icons": true,
+          "img_overlay_icon": "#ffffff",
+          "img_overlay_icon_txt": "#ffffff",
+          "img_overlay_icon_bg": "#777777",
+          "img_overlay_icon_hover_txt": "#ffffff",
+          "texthover_bg_color": "#030d1d",
+          "texthover_txt_color": "#030d1d"
+        }
+      },
+      "brands-page": {
+        "type": "brands-page",
+        "settings": {
+          "display_brand": true
+        }
+      },
+      "blog-mansory": {
+        "type": "blog-mansory",
+        "settings": {
+          "blog_results_per_page": "12",
+          "blog_grid": "3",
+          "show_blog_4_content": true,
+          "show_blog_4_img": true,
+          "show_blog_4_author": true,
+          "show_blog_4_btn": true,
+          "show_blog_4_date": true,
+          "show_blog_4_tag": true,
+          "blog_bg": "#ffffff",
+          "blog_design_4_title": "#000",
+          "blog_design_4_titlehover": "#000",
+          "blog_design_4_datecolor": "#000",
+          "blog_design_4_authorcolor": "#000",
+          "blog_design_commentcolor": "#000",
+          "blog_design_4_tag": "#000",
+          "blog_design_4_taghover": "#000",
+          "button_txt_color": "#fff",
+          "hover_button_txt_color": "#fff"
+        }
+      },
+      "lookbook": {
+        "type": "lookbook",
+        "blocks": {
+          "1567573089903": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "size_image": "normal",
+              "lb_product_1": "",
+              "top_position_1": "5",
+              "left_position_1": "65",
+              "dots_color_1": "#ffffff",
+              "dots_bg_color_1": "#323232",
+              "dots_hoverbg_color_1": "#231f1e",
+              "dots_hovercolor_1": "#231f1e",
+              "dots_shadow_color_1": "#777777",
+              "lb_product_2": "",
+              "top_position_2": "35",
+              "left_position_2": "65",
+              "dots_color_2": "#ffffff",
+              "dots_bg_color_2": "#231f1e",
+              "dots_hoverbg_color_2": "#231f1e",
+              "dots_hovercolor_2": "#231f1e",
+              "dots_shadow_color_2": "#777777",
+              "lb_product_3": "",
+              "top_position_3": "10",
+              "left_position_3": "10",
+              "dots_color_3": "#ffffff",
+              "dots_bg_color_3": "#323232",
+              "dots_hoverbg_color_3": "#323232",
+              "dots_hovercolor_3": "#323232",
+              "dots_shadow_color_3": "#ffffff"
+            }
+          },
+          "1567583212531": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "size_image": "normal",
+              "lb_product_1": "",
+              "top_position_1": "40",
+              "left_position_1": "70",
+              "dots_color_1": "#ffffff",
+              "dots_bg_color_1": "#ffffff",
+              "dots_hoverbg_color_1": "#777777",
+              "dots_hovercolor_1": "#ffffff",
+              "dots_shadow_color_1": "#ffffff",
+              "lb_product_2": "",
+              "top_position_2": "60",
+              "left_position_2": "50",
+              "dots_color_2": "#ffffff",
+              "dots_bg_color_2": "#323232",
+              "dots_hoverbg_color_2": "#ffffff",
+              "dots_hovercolor_2": "#ffffff",
+              "dots_shadow_color_2": "#777777",
+              "lb_product_3": "",
+              "top_position_3": "10",
+              "left_position_3": "10",
+              "dots_color_3": "#ffffff",
+              "dots_bg_color_3": "#323232",
+              "dots_hoverbg_color_3": "#323232",
+              "dots_hovercolor_3": "#323232",
+              "dots_shadow_color_3": "#ffffff"
+            }
+          },
+          "1567583399021": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "size_image": "normal",
+              "lb_product_1": "",
+              "top_position_1": "4",
+              "left_position_1": "44",
+              "dots_color_1": "#ffffff",
+              "dots_bg_color_1": "#323232",
+              "dots_hoverbg_color_1": "#777777",
+              "dots_hovercolor_1": "#ffffff",
+              "dots_shadow_color_1": "#ffffff",
+              "lb_product_2": "",
+              "top_position_2": "70",
+              "left_position_2": "10",
+              "dots_color_2": "#ffffff",
+              "dots_bg_color_2": "#323232",
+              "dots_hoverbg_color_2": "#ffffff",
+              "dots_hovercolor_2": "#231f1e",
+              "dots_shadow_color_2": "#ffffff",
+              "lb_product_3": "",
+              "top_position_3": "50",
+              "left_position_3": "40",
+              "dots_color_3": "#ffffff",
+              "dots_bg_color_3": "#0fa1ea",
+              "dots_hoverbg_color_3": "#db0022",
+              "dots_hovercolor_3": "#ffffff",
+              "dots_shadow_color_3": "rgba(0,0,0,0)"
+            }
+          },
+          "1567583594054": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "size_image": "normal",
+              "lb_product_1": "",
+              "top_position_1": "40",
+              "left_position_1": "50",
+              "dots_color_1": "#ffffff",
+              "dots_bg_color_1": "#323232",
+              "dots_hoverbg_color_1": "#323232",
+              "dots_hovercolor_1": "#323232",
+              "dots_shadow_color_1": "#ffffff",
+              "lb_product_2": "",
+              "top_position_2": "90",
+              "left_position_2": "35",
+              "dots_color_2": "#ffffff",
+              "dots_bg_color_2": "#323232",
+              "dots_hoverbg_color_2": "#323232",
+              "dots_hovercolor_2": "#323232",
+              "dots_shadow_color_2": "#ffffff",
+              "lb_product_3": "",
+              "top_position_3": "10",
+              "left_position_3": "10",
+              "dots_color_3": "#ffffff",
+              "dots_bg_color_3": "#323232",
+              "dots_hoverbg_color_3": "#323232",
+              "dots_hovercolor_3": "#323232",
+              "dots_shadow_color_3": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1567573089903",
+          "1567583212531",
+          "1567583399021",
+          "1567583594054"
+        ],
+        "settings": {
+          "page_title": "Lookbook Page",
+          "display_product_detail_share": true,
+          "share_text": "Share",
+          "button": "View More",
+          "link": "shopify:\/\/collections\/all"
+        }
+      },
+      "header-model-2": {
+        "type": "header-model-2",
+        "settings": {
+          "display_search": true,
+          "display_minicart": true,
+          "display_wishlist": true,
+          "logo_text": "#000000",
+          "logo_hover_text": "#000000",
+          "border_between_bars": "#e4e4e4",
+          "search_icon": "#000000",
+          "search_icon_hover": "#35b8f4",
+          "search_bg": "#ffffff",
+          "search_text": "#000000",
+          "dropdown_icon": "#000000",
+          "dropdown_icon_hover": "#35b8f4",
+          "dropdown_bg": "#ffffff",
+          "dropdown_link": "#000000",
+          "dropdown_hover_link": "#35b8f4",
+          "minicart_icon": "#000000",
+          "minicart_icon_hover": "#35b8f4",
+          "minicart_count": "#000000",
+          "minicart_count_bg": "#000000",
+          "minicart_count_hover_bg": "#000000",
+          "minicart_count_hover_text": "#000000",
+          "minicart_bg": "#ffffff",
+          "minicart_text": "#000000",
+          "minicart_link": "#000000",
+          "minicart_link_hover": "#35b8f4",
+          "minicart_btn_bg": "#000000",
+          "minicart_btn_hover_bg": "#000000",
+          "minicart_btn_text": "#000000",
+          "minicart_btn_hover_text": "#000000",
+          "minicart_total": "#000000",
+          "currency_icon": "#ffffff",
+          "currency_icon_hover": "#35b8f4",
+          "currency_bg": "#ffffff",
+          "currency_link": "#000000",
+          "menubar_bg": "#ffffff",
+          "menubar_links": "#000000",
+          "menubar_links_hover": "#000000",
+          "menu_active": "#35b8f4",
+          "menubar_dropdown_bg": "#ffffff",
+          "menubar_dropdown_caption": "#000000",
+          "menubar_dropdown_caption_hover": "#35b8f4",
+          "menubar_dropdown_links": "#000000",
+          "menubar_dropdown_links_hover": "#35b8f4"
+        }
+      },
+      "1569307209870": {
+        "type": "grid-banner-type-10",
+        "settings": {
+          "bg_color": "#ffffff",
+          "img_hover_clr": "#000000",
+          "sub_heading": "Your everyday makeup essentials!",
+          "sub_heading_clr": "#711b72",
+          "heading": "Be fabulous!",
+          "heading_clr": "#000000",
+          "image_1": "shopify:\/\/shop_images\/face.png",
+          "title_1_sub": "Face",
+          "title_1_clr_sub": "#232323",
+          "text_1": "",
+          "text_1_clr": "#848484",
+          "button_1": "",
+          "link_1": "shopify:\/\/collections\/face",
+          "image_2": "shopify:\/\/shop_images\/eyes.png",
+          "title_2_sub": "Eyes",
+          "title_2_clr_sub": "#232323",
+          "text_2": "",
+          "text_2_clr": "#848484",
+          "button_2": "",
+          "link_2": "shopify:\/\/collections\/eyes",
+          "image_3": "shopify:\/\/shop_images\/lips.png",
+          "title_3_sub": "Lips",
+          "title_3_clr_sub": "#232323",
+          "text_3": "",
+          "text_3_clr": "#848484",
+          "button_3": "",
+          "link_3": "shopify:\/\/collections\/lip"
+        }
+      },
+      "1569308948295": {
+        "type": "grid-banner-type-32",
+        "disabled": true,
+        "blocks": {
+          "1569308948295-0": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-4_750x_2.png",
+              "alignment": "right",
+              "title": "Traditional Methods",
+              "sub_title": "Herbal Body Lotion",
+              "link_1": "shopify:\/\/products\/alan-night-cream",
+              "price": "Start from $25.00",
+              "desc": "All are Herbal Cosmetics and it is formulated, using various permissible herbal cosmetic ingredients which are 100% safe & pure Herbal products.",
+              "button": "View all collection",
+              "link": ""
+            }
+          },
+          "1569308948295-1": {
+            "type": "Image",
+            "disabled": true,
+            "settings": {
+              "alignment": "left",
+              "title": "Cosmetic Revolution",
+              "sub_title": "Organic Serium",
+              "link_1": "shopify:\/\/products\/amet-lipstick",
+              "price": "Start from $35.00",
+              "desc": "Natural ingredients are the best herbal skincare, hair care & other herbal products. These ingredients cleanse and purify the skin and gives a healthy complexion.",
+              "button": "View all collection",
+              "link": ""
+            }
+          },
+          "1569309020577": {
+            "type": "Image",
+            "disabled": true,
+            "settings": {
+              "alignment": "right",
+              "title": "Physicians Formula",
+              "sub_title": "Herbal Face Cream",
+              "link_1": "shopify:\/\/products\/aquis-hair-serium",
+              "price": "Start from $15.00",
+              "desc": "Contains the goodness of Aloe Vera, Vitamin E, and Vitamin B5\nhence it soothes & mattifies your skin and gives you a naturally glowing skin tone to your face.",
+              "button": "View all collection",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1569308948295-0",
+          "1569308948295-1",
+          "1569309020577"
+        ],
+        "settings": {
+          "show_image_1": false,
+          "bg_color": "#ffffff",
+          "heading_image_need": false,
+          "sub_heading": "",
+          "sub_heading_clr": "#000000",
+          "heading": "",
+          "heading_clr": "#000000",
+          "content_bg": "#ffffff",
+          "title_color": "#9d2970",
+          "sub_title_color": "#232323",
+          "price_color": "#232323",
+          "desc_color": "#848484",
+          "overlay_1": false,
+          "overlay_bgcolor_1": "#ffffff"
+        }
+      },
+      "1569310307068": {
+        "type": "home-product-grid-type-4",
+        "settings": {
+          "title": "Let’s Explore",
+          "title_clr": "#000000",
+          "heading_image_need": false,
+          "small_title": "A brand driven by YOU!",
+          "text_clr": "#711b72",
+          "collection": "all-products",
+          "grid": "4",
+          "rows": "3"
+        }
+      },
+      "1569310452196": {
+        "type": "wide-banner-type-3",
+        "settings": {
+          "show_image_1": true,
+          "image_1": "shopify:\/\/shop_images\/multiple_products_900.png",
+          "image_2": "shopify:\/\/shop_images\/multiple_products_mobile.png",
+          "background_color": "#711b72",
+          "title_1": "Unleash the desi girl within!",
+          "title_color": "#232323",
+          "text_1": "Zay beauty curates makeup formulas to enhance the beautiful skin tones of the desi woman helping them bring out the best in them giving them the confidence to slay, everyday!",
+          "text_color": "#232323",
+          "titleshadow_1": "Illuminate beauty",
+          "shadowtext_color": "#711b72",
+          "button_1": "Find your style",
+          "button_bg_color": "rgba(0,0,0,0)",
+          "button_txt_color": "#000000",
+          "hover_button_bg_color": "#711b72",
+          "hover_button_txt_color": "#ffffff",
+          "link_1": "shopify:\/\/collections\/all"
+        }
+      },
+      "about": {
+        "type": "about",
+        "settings": {
+          "showvedaone_2_section": true,
+          "abtone_image_2": "shopify:\/\/shop_images\/img-8_6a5f7c93-63a4-4577-afb9-fcd3845bc089.jpg",
+          "abtone_image_2_heading": "",
+          "abtone_2_title": "Give life to beauty",
+          "abtone_2_maintilte": "#000",
+          "abtone_2_des": "Let your skin looks young and healthy with enough vitamins like Vitamin D, C, E, and K. Moreover, overcome acne, skin aging, dry skin, dullness and fight aginst pollution, UV rays and more. \n<br>\n<br>\nAbove all the organic ingredients cleanse and purify your skin and gives a healthy complexion. So, give you skin a new life without any chemicals are toxins.",
+          "abtone_2_desc": "#000",
+          "abtone_2_listone": "Lipstick",
+          "abtone_2_icon_1": "shopify:\/\/shop_images\/iocn-4.png",
+          "abtone_2_listtwo": "Lotion",
+          "abtone_2_icon_2": "shopify:\/\/shop_images\/iocn-2.png",
+          "abtone_2_listthree": "Kajal",
+          "abtone_2_icon_3": "shopify:\/\/shop_images\/iocn-1_dbb8c95f-bd43-495f-9fd8-7f6d8816bed2.png",
+          "abtone_2_listfour": "Conditioner",
+          "abtone_2_icon_4": "shopify:\/\/shop_images\/iocn-3.png",
+          "aboutveda_1_listcolor": "#000000",
+          "btn_2_text": "Shop Now",
+          "link_2": ""
+        }
+      },
+      "about-page-intro": {
+        "type": "about-page-intro",
+        "blocks": {
+          "1578459567292": {
+            "type": "Image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/img-4_a66c9d85-4a82-4f7a-9e34-fa742891f24f.jpg"
+            }
+          },
+          "1578459575692": {
+            "type": "Image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/img-3_9b7b6cb5-aefd-435c-aa14-0d0a7ae8c686.jpg"
+            }
+          },
+          "1578459578281": {
+            "type": "Image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/img-2_72bb3db9-afed-4163-bc5f-d093b0ae0a70.jpg"
+            }
+          },
+          "1578562764935": {
+            "type": "Image",
+            "settings": {
+              "small_img": "shopify:\/\/shop_images\/img-10.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1578459567292",
+          "1578459575692",
+          "1578459578281",
+          "1578562764935"
+        ],
+        "settings": {
+          "maintitle": "",
+          "maintitle_clr": "#000",
+          "left_img": "shopify:\/\/shop_images\/img-1_62b3e7f2-805d-4d49-b6c4-16bae58fdeb7.jpg",
+          "img_title": "",
+          "abot_bg_img": "",
+          "title_1": "Aesthetic Beauty",
+          "title_1_clr": "#000",
+          "desc": "Beauty is a part of aesthetics, culture, social psychology, philosophy, and sociology. Enhancing beauty is the most essential part. The Herbal Cosmetics products are very useful to enhance your beauty.",
+          "desc_clr": "#000",
+          "subdesc": "All herbal products are formulated, using various permissible herbal cosmetic ingredients. So, herbal cosmetic products are 100% safe & pure to use on any type of skin.",
+          "subdesc_clr": "#000",
+          "title": "Beauty",
+          "title_clr": "#000000",
+          "arrow_bg_clr": "#000000",
+          "arrow_txt_clr": "#ffffff",
+          "arrow_hoverbg_clr": "#ee2d7a",
+          "arrow_hovertxt_clr": "#ffffff",
+          "img_block_bg": "rgba(0,0,0,0)",
+          "boxshadow_clr": "#000"
+        }
+      },
+      "about-border-icon-section": {
+        "type": "about-border-icon-section",
+        "blocks": {
+          "1578459620470": {
+            "type": "text",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/img-5_6c5a4a15-085d-4477-97d3-a34c2236fecc.jpg",
+              "title": "Makeup Kit",
+              "title_clr": "#000",
+              "desc": "Get makeup in one set. Rush to buy good quality makeup kit for applying your makeup.",
+              "desc_clr": "#000",
+              "btn_text": "Shop Now",
+              "btn_text_link": "shopify:\/\/collections"
+            }
+          },
+          "1578459634944": {
+            "type": "text",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/img-6_923dd4df-c2a9-4062-b4a5-1516a0a08a3b.jpg",
+              "title": "Pantone Colors",
+              "title_clr": "#000",
+              "desc": "Easily give your skin an even, uniform color to the complexion, cover flaws and, give natural tone.",
+              "desc_clr": "#000",
+              "btn_text": "Shop Now",
+              "btn_text_link": "shopify:\/\/collections\/body-care"
+            }
+          },
+          "1578459637952": {
+            "type": "text",
+            "settings": {
+              "image_1": "shopify:\/\/shop_images\/img-7_43ae21ff-4385-46e2-9a94-42e678873ffc.jpg",
+              "title": "Makeup Brushes",
+              "title_clr": "#000",
+              "desc": "Discover the right makeup brush.  Buy the quality brush that allow you to set and touch up your makeup.",
+              "desc_clr": "#000",
+              "btn_text": "Shop Now",
+              "btn_text_link": "shopify:\/\/collections\/brand"
+            }
+          }
+        },
+        "block_order": [
+          "1578459620470",
+          "1578459634944",
+          "1578459637952"
+        ],
+        "settings": {
+          "icon_wrapper_bg": "#ffeaf2",
+          "main_title": "Unique Beauty Products",
+          "mainheading_color": "#000",
+          "main_subheading": "",
+          "subheading_color": "#000",
+          "icon_border_clr": "#fff"
+        }
+      },
+      "about-banner": {
+        "type": "about-banner",
+        "settings": {
+          "image_1": "shopify:\/\/shop_images\/img-9.jpg",
+          "bg_color_1": "#e4e4e4",
+          "titleshadow_1": "",
+          "shadowtext_color": "#000",
+          "title_1": "Cosmetics in focus",
+          "title_color": "#ffffff",
+          "text_1": "All our personal care cosmetic products are herbal. We sell products like skin moisturizers, perfumes, night cream, shampoo, conditioner, serum, hair tonic, sunscreen, body wash, liquid soap, beauty cream, skin cleansers, body lotions, hair styling products like gel, hair spray and more.",
+          "text_color": "#ffffff",
+          "button_1": "Shop Now",
+          "btn_bg": "#ee2d7a",
+          "btn_color": "#ffffff",
+          "btn_hover_bg": "#ee2d7a",
+          "btn_hover_color": "#fff",
+          "link_1": "",
+          "button_2": "",
+          "link_2": ""
+        }
+      },
+      "about-page-number-block": {
+        "type": "about-page-number-block",
+        "blocks": {
+          "1578399504280": {
+            "type": "text",
+            "settings": {
+              "section_4_iconclsone": "fas fa-user",
+              "section_4_numberone": "400 +",
+              "section_4_numberone_clr": "#000",
+              "section_4_titleone": "Customers",
+              "section_4_titleone_clr": "#000"
+            }
+          },
+          "1578399506966": {
+            "type": "text",
+            "settings": {
+              "section_4_iconclsone": "far fa-gem",
+              "section_4_numberone": "94+",
+              "section_4_numberone_clr": "#000000",
+              "section_4_titleone": "Projects",
+              "section_4_titleone_clr": "#000"
+            }
+          },
+          "1578399510599": {
+            "type": "text",
+            "settings": {
+              "section_4_iconclsone": "fas fa-users",
+              "section_4_numberone": "350+",
+              "section_4_numberone_clr": "#000000",
+              "section_4_titleone": "Team",
+              "section_4_titleone_clr": "#000"
+            }
+          },
+          "1578399512954": {
+            "type": "text",
+            "settings": {
+              "section_4_iconclsone": "fas fa-building",
+              "section_4_numberone": "150+",
+              "section_4_numberone_clr": "#000",
+              "section_4_titleone": "Branches",
+              "section_4_titleone_clr": "#000"
+            }
+          }
+        },
+        "block_order": [
+          "1578399504280",
+          "1578399506966",
+          "1578399510599",
+          "1578399512954"
+        ],
+        "settings": {
+          "show_5_section": true,
+          "section_4_bgcolor": "#fbbbcb",
+          "section_4_iconbgcolor": "#ff99b5",
+          "section_4_iconcolor": "#ffffff",
+          "section_4_iconborder": "#ee2d7a"
+        }
+      },
+      "about-page-team": {
+        "type": "about-page-team",
+        "blocks": {
+          "1578398989525": {
+            "type": "Image",
+            "settings": {
+              "team_1_image": "shopify:\/\/shop_images\/team-4_ca472dc6-2e72-4cce-b438-190a719a1ccc.jpg",
+              "team_1_clr": "rgba(0,0,0,0)",
+              "team_1_name": "Reva Quail",
+              "team_1_job": "Quality Tester",
+              "team_1_fb": "#",
+              "team_1_tw": "#",
+              "team_1_gp": "#"
+            }
+          },
+          "1578398997357": {
+            "type": "Image",
+            "settings": {
+              "team_1_image": "shopify:\/\/shop_images\/team-1_a542df20-f234-4d3c-a116-6eb53c85bcc8.jpg",
+              "team_1_clr": "#e2e8ec",
+              "team_1_name": "Shad Hews",
+              "team_1_job": "Supporter",
+              "team_1_fb": "#",
+              "team_1_tw": "#",
+              "team_1_gp": "#"
+            }
+          },
+          "1578399000358": {
+            "type": "Image",
+            "settings": {
+              "team_1_image": "shopify:\/\/shop_images\/team-5.jpg",
+              "team_1_clr": "#e2e8ec",
+              "team_1_name": "Julie Liam",
+              "team_1_job": "Store Manager",
+              "team_1_fb": "#",
+              "team_1_tw": "#",
+              "team_1_gp": "#"
+            }
+          },
+          "1578399378116": {
+            "type": "Image",
+            "settings": {
+              "team_1_image": "shopify:\/\/shop_images\/team-3_d3411a70-69c7-4397-ae72-f269c0c0f0a3.jpg",
+              "team_1_clr": "#e2e8ec",
+              "team_1_name": "Edith Luke",
+              "team_1_job": "Designer",
+              "team_1_fb": "#",
+              "team_1_tw": "#",
+              "team_1_gp": "#"
+            }
+          }
+        },
+        "block_order": [
+          "1578398989525",
+          "1578398997357",
+          "1578399000358",
+          "1578399378116"
+        ],
+        "settings": {
+          "bg_color": "rgba(0,0,0,0)",
+          "sub_heading": "",
+          "sub_heading_clr": "#000",
+          "heading": "Our Team",
+          "heading_clr": "#000",
+          "image_hover_bg": "#ff99b5",
+          "team_name_color": "#ffffff",
+          "team_job_color": "#ffffff",
+          "socialicon_bg_color": "#ffffff",
+          "socialicon_bg_hvr": "#ffffff",
+          "socialicon_hover_color": "#0c0c0c",
+          "socialicon_color": "#ee2d7a"
+        }
+      },
+      "support-block-type-8": {
+        "type": "support-block-type-8",
+        "blocks": {
+          "1578546400831": {
+            "type": "text",
+            "settings": {
+              "icon": "fas fa-shipping-fast",
+              "icon_color": "#ffffff",
+              "icon_bg": "#711b72",
+              "icon_hover_color": "#000000",
+              "title": "Shipping",
+              "title_color": "#000000",
+              "desc": "Worldwide",
+              "desc_color": "#848484"
+            }
+          },
+          "1578546550896": {
+            "type": "text",
+            "settings": {
+              "icon": "fas fa-phone",
+              "icon_color": "#ffffff",
+              "icon_bg": "#711b72",
+              "icon_hover_color": "#ee2d7a",
+              "title": "Helpline",
+              "title_color": "#000000",
+              "desc": "+97 158 289 5402",
+              "desc_color": "#848484"
+            }
+          },
+          "1578546601281": {
+            "type": "text",
+            "settings": {
+              "icon": "fas fa-headphones",
+              "icon_color": "#ffffff",
+              "icon_bg": "#711b72",
+              "icon_hover_color": "#ee2d7a",
+              "title": "24X7",
+              "title_color": "#000000",
+              "desc": "Customer Support",
+              "desc_color": "#848484"
+            }
+          },
+          "1578546638680": {
+            "type": "text",
+            "settings": {
+              "icon": "fas fa-exchange-alt",
+              "icon_color": "#ffffff",
+              "icon_bg": "#711b72",
+              "icon_hover_color": "#ee2d7a",
+              "title": "Returns",
+              "title_color": "#000000",
+              "desc": "and Exchange",
+              "desc_color": "#848484"
+            }
+          }
+        },
+        "block_order": [
+          "1578546400831",
+          "1578546550896",
+          "1578546601281",
+          "1578546638680"
+        ],
+        "settings": {
+          "support_block": true,
+          "bg_color": "#ffffff"
+        }
+      },
+      "16279715871d844a93": {
+        "type": "custom-autoplay",
+        "settings": {
+          "video_url": "https:\/\/streamable.com\/e\/7ye4j0?autoplay=1&nocontrols=1&muted=1&rel=0"
+        }
+      },
+      "1627972220c38a9c24": {
+        "type": "app-instagram",
+        "settings": {
+          "background_color": "#ffffff",
+          "title": "Our Story",
+          "title_color": "#000000",
+          "small_title": "",
+          "small_title_color": "#000000",
+          "button": "View all",
+          "link": ""
+        }
+      },
+      "16281489656af91acb": {
+        "type": "ot-facebook-reviews-code",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "1628683653558d7a7c": {
+        "type": "custom-content",
+        "disabled": true,
+        "blocks": {
+          "1628683653558d7a7c-0": {
+            "type": "text",
+            "settings": {
+              "heading_text": "Join Our Affiliate Program",
+              "heading_color": "#000000",
+              "heading_style": "h2",
+              "paragraph_text": "<p>Earn up to 10% commission for every successful referral<\/p>",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "d65eb82a-cdd5-47ea-b7d0-b5ceca0bebee": {
+            "type": "html",
+            "settings": {
+              "code": "<a><button class=\"referral-btn\" style=\"background: #fff; border-radius: 40px; width: 200px;font-size: 30px;border:1px solid #9d2970; color: #9d2970\">Join Now<\/button><\/a>",
+              "width": "50%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1628683653558d7a7c-0",
+          "d65eb82a-cdd5-47ea-b7d0-b5ceca0bebee"
+        ],
+        "settings": {
+          "heading_text": "",
+          "heading_color": "#3a3a3a",
+          "background_color": "#e4e4e4",
+          "top_margin": false,
+          "bottom_margin": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1558066628478",
+      "1569307209870",
+      "1569308948295",
+      "1569310452196",
+      "16279715871d844a93",
+      "1569310307068",
+      "16281489656af91acb",
+      "1627972220c38a9c24",
+      "1558676744308",
+      "1628683653558d7a7c"
+    ]
+  }
+}

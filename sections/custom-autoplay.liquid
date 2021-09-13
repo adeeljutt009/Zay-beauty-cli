@@ -1,0 +1,82 @@
+<!--    <div class="autoplay_vid">
+	<video class="video-fluid z-depth-1" autoplay loop muted>
+  	<source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+	</video>
+  </div> -->
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="{{ section.settings.video_url }}" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+
+
+{% schema %}
+  {
+    "name": "AutoPlay Video",
+    "settings": [
+				  {
+					"type": "text",
+					"label": "Add Video Url",
+					"id": "video_url"
+					}
+				],
+			
+			"presets": [
+                    {
+                    "name": "AutoPlay Video",
+                    "category": "Custom"
+                    }
+                    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<style>
+  
+  /*
+  
+   .autoplay_vid{
+      position: relative;
+  	  text-align: center;
+      color: white;
+  }
+  .vid_overlay {
+      position: absolute;
+      color: #ffffff;
+      bottom: 50px;
+      right: 50px;
+      
+	}
+  .vid_overlay h1{
+  	  animation: backInLeft;
+  	  animation-duration: 2s;
+      
+  
+  } 
+  
+  .video-fluid {
+      width: 100%;
+      height: auto;
+	} 
+  */
+</style>
+
+
+<script>
+function playvideo()
+{
+document.getElementById("video").play();
+}
+
+myVid=document.getElementById("video");
+myVid.oncanplay=playvideo();
+</script> 
+
+
+
+
+
+

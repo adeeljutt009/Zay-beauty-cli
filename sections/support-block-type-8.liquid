@@ -1,0 +1,129 @@
+{% if section.settings.support_block %}
+<div data-section-id="{{ section.id }}"  data-section-type="support-block-type-8" class="support-block-type-8">   
+  <div class="container">
+    <div class="grid-uniform">
+      <ul class="support_block" style="background:{{ section.settings.bg_color }};float:left;width:100%;">         
+        {% if section.blocks.size > 0 %}      
+        {% for block in section.blocks %}
+        {% case section.blocks.size %}
+        {% when 1 %}
+        {%- assign block_width = 'one-whole text-center' -%}
+        {% when 2 %}
+        {%- assign block_width = 'wide--one-half post-large--one-half large--one-half medium--one-half small-grid__item' -%}
+        {% when 3 %}
+        {%- assign block_width = 'wide--one-third post-large--one-third large--one-third medium--one-half small-grid__item' -%}
+        {% when 4 %}
+        {%- assign block_width = 'wide--one-quarter post-large--one-quarter large--one-quarter medium--one-half small--one-half' -%}
+        {% endcase %}
+        <li class="grid__item {{ block_width }} wow fadeInUp"  data-wow-delay="{{ settings.time_lazy_load }}ms">
+
+          <div class="support_section"> 
+            {% if block.settings.icon != blank  %}
+            <div class="support_icon" style="background:{{ block.settings.icon_bg}};">    
+              <a  class="icon" style="color:{{ block.settings.icon_color }};"><i class="{{ block.settings.icon }}"></i></a> 
+            </div>  
+            {% endif %}  
+
+            <div class="support_text"> 
+              {% if block.settings.title != blank  %}  
+              <h6 style="color:{{ block.settings.title_color }};">{{ block.settings.title }}</h6>
+              {% endif %} 
+              {% if block.settings.desc != blank  %}  
+              <p style="color:{{ block.settings.desc_color }};" class="desc">{{ block.settings.desc }}</p>
+              {% endif %} 
+            </div>      
+          </div>    
+        </li>  
+        {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  </div> 
+  <div class="dt-sc-hr-invisible-medium"></div>
+</div>
+{% endif %}
+
+<style>  
+  
+  .support-block-type-8 .support_section:hover .support_icon a { color:{{ block.settings.icon_hover_color}} !important;}
+
+</style>
+
+{% schema %}
+{
+"name": "Support",
+"class": "index-section",
+"max_blocks":4,
+"settings": [
+
+{
+"type": "checkbox",
+"id": "support_block",
+"label": "Use support block?",
+"default": true
+},
+{
+"type": "color",
+"id": "bg_color",
+"label": "Bg",
+"default":"#fff"
+}
+
+],
+"blocks": [
+{
+"type": "text",
+"name": "support block",
+"settings": [ 
+{
+"type": "text",
+"id": "icon",
+"label": "Font Awesome class",
+"default": "fas fa-shipping-fast"   
+},
+{
+"type": "color",
+"id": "icon_color",
+"label": "Icon color",
+"default":"#000"
+},
+{
+"type": "color",
+"id": "icon_bg",
+"label": "Icon Bg",
+"default":"#000"
+},
+{
+"type": "color",
+"id": "icon_hover_color",
+"label": "Icon Hover Color",
+"default":"#000"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading"          
+},
+{
+"type": "color",
+"id": "title_color",
+"label": "Color",
+"default":"#000"
+},
+{
+"type": "text",
+"id": "desc",
+"label": "Description"          
+},
+{
+"type": "color",
+"id": "desc_color",
+"label": "Color",
+"default":"#000"
+}    
+
+]
+}
+]
+}
+{% endschema %}
